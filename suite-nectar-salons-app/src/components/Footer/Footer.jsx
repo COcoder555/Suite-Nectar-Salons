@@ -35,7 +35,7 @@ function Footer(props) {
 Matthews
    NC 28105
    <div>
-704-800-4008
+   <a className='ph' href= "">704-800-4008</a>
 </div>
 </div>
 </div>
@@ -48,9 +48,17 @@ Matthews
               </NavItem>
             </Nav>
  
-          <div >
-            <NavLink onClick={handleNavclick2} href="#"> <img id="logo2" src="../../assets/snslogo.png"></img></NavLink>
+            <div>
+            <NavLink onClick={handleNavclick2} href="#"> <img id="logo2" src="../../assets/snslogo2.png"></img></NavLink>
+          
+            <div className='socialMedia'>
+            <NavLink onClick={handleNavclick2} href="#"> <i id = "SM" className ="fa-brands fa-facebook fa-2xl"></i></NavLink>
+            <NavLink onClick={handleNavclick2} href="#"> <i  id = "SM" className ="fa-brands fa-instagram fa-2xl"></i></NavLink>
+            <NavLink onClick={handleNavclick2} href="#"> <i id = "SM" className ="fa-brands fa-pinterest fa-2xl"></i> </NavLink>
+            <NavLink onClick={handleNavclick2} href="#"> <i id = "SM" className ="fa-brands fa-twitter fa-2xl"></i></NavLink>
+            </div>
           </div>
+          
           <Nav className="link"  navbar>
             <NavItem className="leftLinks2" nav caret>
 
@@ -67,9 +75,12 @@ Matthews
 Charlotte, NC
 </div>
 <div>
-704-800-4008
+<a className='ph' href= "">704-800-4008</a>
 </div>
 </div>
+
+
+ 
           </CardBody>
               </div>  
    

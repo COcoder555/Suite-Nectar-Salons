@@ -23,7 +23,19 @@ margin-left: 0;
     grid-auto-flow: column;
 }
 
+.socialMedia{
+    margin:1vw;
+    display: grid;
+    grid-auto-flow:column;
+    
 
+}
+#SM{
+    color:rgb(142, 205, 162);
+}
+#SM:hover{
+color: #E5C7BC;
+}
 .card{
     margin-top: 18%;
     border-style: none;
@@ -32,4 +44,11 @@ margin-left: 0;
 }
 
 
+.ph {
+    color:rgb(230, 177, 231);
+    text-decoration: none;
+   }
 
+.ph:hover{
+color:white;
+}
