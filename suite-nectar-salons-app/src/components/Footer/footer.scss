@@ -1,0 +1,35 @@
+#footer{
+  display: grid;
+  grid-auto-flow: column;
+    height: 35vh;
+    background-color:#3e3e3f;
+    text-align: center;
+
+}
+
+#logo2{
+margin-left: 0;
+    margin-top:5%;
+}
+
+
+// #logo2:hover{
+//     box-shadow: 4px 9px #211e1e;
+// }
+.leftLinks2{
+    // margin-top:9%;
+    display:grid;
+
+    grid-auto-flow: column;
+}
+
+
+.card{
+    margin-top: 18%;
+    border-style: none;
+    background-color:#3e3e3f;
+    color:rgb(230, 177, 231);
+}
+
+
+

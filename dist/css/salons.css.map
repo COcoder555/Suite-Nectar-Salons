@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,OAAO,CAAA;EACH,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,IAAI;EACZ,gBAAgB,EAAE,UAAU;CAC/B",
+    "sources": [
+        "../../suite-nectar-salons-app/src/components/pages/salonandsuites/salons.scss"
+    ],
+    "names": [],
+    "file": "salons.css"
+}

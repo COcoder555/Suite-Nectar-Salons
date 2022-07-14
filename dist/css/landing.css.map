@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,iBAAiB,CAAA;EACb,gBAAgB,EAAE,0CAA0C;EAE5D,KAAK,EAAE,KAAK;EACZ,UAAU,EAAE,IAAI;EAChB,MAAM,EAAE,IAAI;CACf",
+    "sources": [
+        "../../suite-nectar-salons-app/src/components/landing/landing.scss"
+    ],
+    "names": [],
+    "file": "landing.css"
+}

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,YAAY,CAAA;EACR,KAAK,EAAE,KAAK;EACZ,MAAM,EAAC,IAAI;EACX,gBAAgB,EAAE,MAAM;CAC3B",
+    "sources": [
+        "../../suite-nectar-salons-app/src/components/pages/experiences/experience.scss"
+    ],
+    "names": [],
+    "file": "experience.css"
+}
