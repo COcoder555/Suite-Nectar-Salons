@@ -1,15 +1,31 @@
 
 #nourish{
     // height: 1600px;
-background-color: rgb(183, 151, 163);
+    background-color:wheat;
 color:white;
 height: 100vh;
+color:black
 }
 
+#text1 {
+text-align: right;
 
+}
+.text-right{
 
+}
+#text2{
+    display: inline-block;
+    text-align: right;
+
+  
+    }
+// #text2:hover{
+// transform: translate(100%);
+// }
 .landing-background{
-    background-image: url('../../../public/assets/salon2img.png');
+   
+    background-image: url('../../../public/assets/bg1.png');
    background-repeat: no-repeat;
     background-size: 100%;
 

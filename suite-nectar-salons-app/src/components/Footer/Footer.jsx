@@ -28,60 +28,76 @@ function Footer(props) {
         <div className='row'>
 
            <div id ='footer' className='col-12'>
-       <CardBody>
-      <div  className='card'>
-      <div> MATTHEWS LOCATION</div>
-<div>7928 Council Place
-Matthews
+      
+            {/* <Nav className="link"  navbar>
+              <NavItem className="footerLinks" nav caret>
+                <NavLink onClick={handleNavclick2} href='#' className="FL">SERVICES</NavLink>
+                <NavLink onClick={handleNavclick2} href='#' className="FL">ABOUT</NavLink>
+                <NavLink onClick={handleNavclick2} href='#' className="FL">GALLERY</NavLink>
+              </NavItem>
+            </Nav> */}
+ 
+            <div>
+            <div>
+            <NavLink onClick={handleNavclick2} href="#"> <img id="logo2" src="../../assets/snslogo3.png"></img></NavLink>
+            <div>
+            <Nav className="link"  navbar>
+            <NavItem className="footerLinks" nav caret>
+              <NavLink onClick={handleNavclick2} href='#' className="FL">PROFESSIONALS</NavLink>
+              <NavLink onClick={handleNavclick2} href='#' className="FL">SERVICES</NavLink>
+                <NavLink onClick={handleNavclick2} href='#' className="FL">ABOUT</NavLink>
+                <NavLink onClick={handleNavclick2} href='#' className="FL">GALLERY</NavLink>
+                <NavLink onClick={handleNavclick2} href='#' className="FL">LEASING</NavLink>
+              <NavLink onClick={handleNavclick2} href='#' className="FL">EXPERIENCES</NavLink>
+                </NavItem>
+                </Nav>
+                </div>
+            </div>
+            <div className='socialMedia'>
+            <NavLink onClick={handleNavclick2} href="#"> <i id = "SM" className ="fa-brands fa-facebook fa-2xl"></i></NavLink>
+            <NavLink onClick={handleNavclick2} href="https://www.instagram.com/suitenectarsalons_matthews/?hl=en"> <i  id = "SM" className ="fa-brands fa-instagram fa-2xl"></i></NavLink>
+            <NavLink onClick={handleNavclick2} href="https://www.pinterest.com/suite_nectar/"> <i id = "SM" className ="fa-brands fa-pinterest fa-2xl"></i> </NavLink>
+            <NavLink onClick={handleNavclick2} href="https://twitter.com/SuiteNectar"> <i id = "SM" className ="fa-brands fa-twitter fa-2xl"></i></NavLink>
+            </div>
+            <div>
+              <div> <CardBody>
+      <div  className='footer-card'>
+    
+<div>7928 COUNCIL PLACE
+MATTHEWS
    NC 28105
    <div>
    <a className='ph' href= "">704-800-4008</a>
-</div>
-</div>
-</div>
-       </CardBody>
-            <Nav className="link"  navbar>
-              <NavItem className="leftLinks2" nav caret>
-                <NavLink onClick={handleNavclick2} href='#' className="S">SERVICES</NavLink>
-                <NavLink onClick={handleNavclick2} href='#' className="S">ABOUT</NavLink>
-                <NavLink onClick={handleNavclick2} href='#' className="S">GALLERY</NavLink>
-              </NavItem>
-            </Nav>
- 
-            <div>
-            <NavLink onClick={handleNavclick2} href="#"> <img id="logo2" src="../../assets/snslogo2.png"></img></NavLink>
-          
-            <div className='socialMedia'>
-            <NavLink onClick={handleNavclick2} href="#"> <i id = "SM" className ="fa-brands fa-facebook fa-2xl"></i></NavLink>
-            <NavLink onClick={handleNavclick2} href="#"> <i  id = "SM" className ="fa-brands fa-instagram fa-2xl"></i></NavLink>
-            <NavLink onClick={handleNavclick2} href="#"> <i id = "SM" className ="fa-brands fa-pinterest fa-2xl"></i> </NavLink>
-            <NavLink onClick={handleNavclick2} href="#"> <i id = "SM" className ="fa-brands fa-twitter fa-2xl"></i></NavLink>
-            </div>
-          </div>
-          
-          <Nav className="link"  navbar>
-            <NavItem className="leftLinks2" nav caret>
-
-              <NavLink onClick={handleNavclick2} href='#' className="S">PROFESSIONALS</NavLink>
-              <NavLink onClick={handleNavclick2} href='#' className="S">LEASING</NavLink>
-              <NavLink onClick={handleNavclick2} href='#' className="S">EXPERIENCES</NavLink>
-            </NavItem>
-          </Nav>
-          <CardBody>
-            <div className='card'>
-          <div>SOUTHEND LOCATION</div>
-          <div>
-2250 Hawkins St
-Charlotte, NC
+   <div>
+2250 HAWKINS ST
+CHARLOTTE, NC 28105
 </div>
 <div>
 <a className='ph' href= "">704-800-4008</a>
 </div>
 </div>
-
+</div>
+</div>
+       </CardBody>
+       </div>
+                   <CardBody>
+   
 
  
           </CardBody>
+          
+            </div>
+          </div>
+{/*           
+          <Nav className="link"  navbar>
+            <NavItem className="footerLinks" nav caret>
+
+              <NavLink onClick={handleNavclick2} href='#' className="FL">PROFESSIONALS</NavLink>
+              <NavLink onClick={handleNavclick2} href='#' className="FL">LEASING</NavLink>
+              <NavLink onClick={handleNavclick2} href='#' className="FL">EXPERIENCES</NavLink>
+            </NavItem>
+          </Nav> */}
+     
               </div>  
    
 </div>

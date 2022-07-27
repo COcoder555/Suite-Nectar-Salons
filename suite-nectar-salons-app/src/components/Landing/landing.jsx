@@ -18,9 +18,21 @@ function Landing() {
             
                           </div>
                           <Caro></Caro>
-                          <div id = "nourish"  className='landing-background col-12'/>
-                            Hello WORLD
-                          
+                          <div id = "nourish"  className='landing-background col-12'>
+                            <h2 id ="text1"  className=''>
+                  Nourish your life with all this text      
+                            </h2>
+                            <div >
+                            <p id = "text2" className= 'text-right'>
+                                safjkl;sjfklds;ajfk;lsdaj;l;lkjflk;dsa
+                                jfdklsajklds;fjklds;ajfkdls;ajfkl;dsaj
+                                fkl;dsjafkl;dsajfkld;ajfkdl;sa fdsafdsafdsfdsfadsadfdsafdsafsdfasaf
+                                jfdkl;sajfkld;sajfkl;dsjkl;jkl;dsjfkl;dsjafkl;dsjklaf;jdskl;afjdkl
+                                jdsl;fjdskl;afjklds;ajfkld;sjfkl;dsajfkl;dsjklaf;jdskl;afjklds;jfkls;daj
+                                klds;afjdkls;ajfls;ka
+                            </p>
+                            </div>
+                          </div>
                      
                          
                          

@@ -50,8 +50,8 @@ let Navhandler = (props) => {
               </NavItem>
             </Nav>
  
-          <div >
-            <NavLink onClick={handleNavclick} href="#"> <img id="logo" src="../../assets/snslogo2.png"></img></NavLink>
+          <div className="NL">
+            <NavLink onClick={handleNavclick} href="#"> <img id="logo" src="../../assets/snslogo3.png"></img></NavLink>
           </div>
          
           <Nav className="link"  navbar>

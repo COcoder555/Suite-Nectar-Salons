@@ -18,6 +18,8 @@ import Experiences from "./components/Experiences/experiences";
 import Leasing from "./components/Leasing/leasing";
 import Caro2 from "./components/Carousel/carousel2";
 
+import "./app.scss"
+
 
 function App() {
   // const [currentPage, targetPage] = useState();
@@ -28,7 +30,9 @@ function App() {
     
     <div className="app">
            <div className="App">
+            <nav >
       <Navhandler currentPage ={currentPage} setCurrentPage ={setCurrentPage}/>
+      </nav>
       {currentPage===''? <Landing/>:''}
       {currentPage ==='SERVICES'? <Services/>: ''}
       {currentPage ==='ABOUT'? <About/>: ''}

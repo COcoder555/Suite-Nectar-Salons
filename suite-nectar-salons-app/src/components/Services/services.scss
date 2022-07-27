@@ -1,6 +1,44 @@
-.BK{
-    background-image: url('../../../public/assets/salon2img.png');
+.serv-background{
+    background-image: url('../../../public/assets/bg2.jpg');
     // display: grid;
+background-repeat: no-repeat;
+ background-size: 100%;
+    height: 100vh;
+}
+// .container{
+//     height: 100%;
+// }
+.wrapper{
+        background-image: url('../../../public/assets/bg1.png');
+    background-color:white;
+    height: fit-content
+}
 
-    height: 51vh;
+.container{
+    height: fit-content;
+}
+h1{
+    font-family:Quainton ;
+    font-size: 8vh;
+padding-top: 4%;  
+text-align: center;
+}
+
+h3{
+    font-family:Quainton ;
+    padding-top: 4%;  
+    text-align: center;
+    }
+.serv{
+
+    height: fit-content;
+    border-radius: 0%;
+    color:white;
+    background-color: rgb(199, 196, 196);
+    margin-top: 1%;
+ 
+}
+
+.service-card{
+padding: 2%;
 }

@@ -5,18 +5,18 @@ import { UncontrolledCarousel } from 'reactstrap';
 export default function Caro() {
   const items = [
     {
-      src: '../../assets/salonimg.png',
+      src: '../../assets/work3.png',
       altText: 'Slide 1',
   
     
     },
     {
-      src: '../../assets/salon2.jpg',
+      src: '../../assets/salonimg.png',
       altText: 'Slide 2',
     
     },
     {
-      src: '../../assets/cspace.png',
+      src: '../../assets/bg2.jpg',
       altText: 'Slide 3',
     
     }
