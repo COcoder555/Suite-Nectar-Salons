@@ -17,6 +17,7 @@ import Caro from "./components/Carousel/Corouse1";
 import Experiences from "./components/Experiences/experiences";
 import Leasing from "./components/Leasing/leasing";
 import Caro2 from "./components/Carousel/carousel2";
+import Contacter from "./components/Contact/contact";
 
 import "./app.scss"
 
@@ -40,7 +41,7 @@ function App() {
       {currentPage ==='PROFESSIONALS'? <Professionals/>: ''}
       {currentPage ==='LEASING'? <Leasing/>: ''}
       {currentPage ==='EXPERIENCES'? <Experiences/>: ''}
-     
+      {currentPage ==='CONTACT NOW'? <Contacter/>: ''}
       
    
    

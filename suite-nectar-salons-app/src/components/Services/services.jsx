@@ -21,7 +21,7 @@ export default function Services() {
 
 
   
-  <div className='container'>
+  <div className='container2'>
     <div id = "serv">
       
       <h1>

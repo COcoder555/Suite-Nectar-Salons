@@ -43,10 +43,11 @@ function Footer(props) {
             <div>
             <Nav className="link"  navbar>
             <NavItem className="footerLinks" nav caret>
-              <NavLink onClick={handleNavclick2} href='#' className="FL">PROFESSIONALS</NavLink>
+       
               <NavLink onClick={handleNavclick2} href='#' className="FL">SERVICES</NavLink>
                 <NavLink onClick={handleNavclick2} href='#' className="FL">ABOUT</NavLink>
                 <NavLink onClick={handleNavclick2} href='#' className="FL">GALLERY</NavLink>
+                <NavLink onClick={handleNavclick2} href='#' className="FL">PROFESSIONALS</NavLink>
                 <NavLink onClick={handleNavclick2} href='#' className="FL">LEASING</NavLink>
               <NavLink onClick={handleNavclick2} href='#' className="FL">EXPERIENCES</NavLink>
                 </NavItem>

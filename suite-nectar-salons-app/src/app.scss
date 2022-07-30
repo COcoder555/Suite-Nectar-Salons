@@ -1,23 +1,12 @@
-// .app{
-//     width:100%;
-//     height: 100vh;
-//     background-color: rgb(14, 13, 13);
-//     .sections{
-//         width: 100%;
-//         height:calc(100vh - 85px) ;
-//         background-color: rgb(33, 189, 12);
-//         position: relative;
-//         top: 77px;
-//         scroll-snap-type: y mandatory;
+*{
+    box-sizing: border-box;
+}
 
-//         *{
-//             width:100wh;
-//             height: calc(100vh - 85px);
-//             scroll-snap-align: start ;
-//         }
+.body{
+margin: 0;
+padding:0;
+}
 
-
-//     }
 nav{
     z-index: 3;
     position: fixed;
@@ -25,3 +14,5 @@ nav{
     top: 0;
     left: 0;
 }
+
+
