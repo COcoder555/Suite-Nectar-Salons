@@ -31,6 +31,7 @@
 }
 
 .phone {
+    margin-top: 10%;
     font-family: "Thasadith";
     overflow: hidden;
     text-overflow: ellipsis;
@@ -90,14 +91,8 @@
 .container{
 display: grid;
 grid-auto-flow: column;
-    
 }
 
-// .leftLinks {
-// display: grid;
-// grid-auto-flow: column;
-
-// }
 
 #c2 {
 
@@ -111,6 +106,7 @@ display:flex;
 }
 
 #c3 {
+
     font-family: "Thasadith";
     // grid-column:13/14 ;
 
@@ -119,6 +115,34 @@ display:flex;
     background-color: #E5C7BC;
 }
 
+
+.link3:visited {
+    color: white;
+}
+
+.link3:hover {
+    color: black;
+}
+.c3contain{
+    margin-top: 13%;
+}
+.link3{
+  
+
+    font-family: "Thasadith";
+  
+    text-overflow: ellipsis;
+ 
+   
+    font-size: small;
+
+    text-align: center;
+
+    font-style: normal;
+    color: white;
+    text-decoration: none;
+ 
+}
 
 .logo-link {
     padding-left: 5%;
