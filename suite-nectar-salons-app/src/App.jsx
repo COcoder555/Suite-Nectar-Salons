@@ -41,7 +41,7 @@ function App() {
       {currentPage ==='PROFESSIONALS'? <Professionals/>: ''}
       {currentPage ==='LEASING'? <Leasing/>: ''}
       {currentPage ==='EXPERIENCES'? <Experiences/>: ''}
-      {currentPage ==='CONTACT NOW'? <Contacter/>: ''}
+      {currentPage ==='CONTACT'? <Contacter/>: ''}
       
    
    
