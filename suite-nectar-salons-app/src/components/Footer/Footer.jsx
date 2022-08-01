@@ -64,14 +64,13 @@ function Footer(props) {
               <div> <CardBody>
       <div  className='footer-card'>
     
-<div>7928 COUNCIL PLACE
-MATTHEWS
+<div>7928 Council Place Matthews
    NC 28105
    <div>
    <a className='ph' href= "">704-800-4008</a>
    <div>
-2250 HAWKINS ST
-CHARLOTTE, NC 28105
+2250 Hawkins St
+Charlotte, NC 28105
 </div>
 <div>
 <a className='ph' href= "">704-800-4008</a>
