@@ -73,7 +73,7 @@ let Navhandler = (props) => {
         <div className="container">
         <Nav id= "" className="" navbar>
           <NavItem className="c3contain" nav caret>
-          <NavLink onClick={handleNavclick} href='# ' className="link3">CONTACT NOW</NavLink>
+          <NavLink onClick={handleNavclick} href='# ' className="link3">CONTACT</NavLink>
           </NavItem>
           </Nav>
         </div>

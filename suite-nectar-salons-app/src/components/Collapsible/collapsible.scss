@@ -1,16 +1,58 @@
+
+
+.serv{
+ 
+  height:fit-content;
+  border-radius: 0%;
+  color:white;
+  background-color: rgb(199, 196, 196);
+  margin-top: 1%;
+
+}
+
+i{
+height: fit-content;
+}
+
+.toggleBtn{
+  color:white;
+  margin:.5%;
+}
+.toggleBtn:hover{
+  color:black;
+  margin:.5%;
+}
 .btn1{
     text-align: end;
   }
   .btn{
+  outline: none;
     margin: .5%;
-     border-width: 10px;
+    padding: 0;
       background-color:  rgb(199, 196, 196) ;
       border-radius: 0%;
-      width: 4vw;
-//    height: fit-content;
+    
+      
   }
+
 
   .arrow{
     color:white;
 
+  }
+
+
+  h3{
+
+    margin-top: 2%;
+    margin-bottom:0;
+    padding: 0;
+  letter-spacing: 8px;
+  word-spacing: 20px;
+  }
+
+
+  button{
+    border: none;
+    background:none;
   }

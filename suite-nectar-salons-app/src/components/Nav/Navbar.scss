@@ -7,6 +7,7 @@
 
 
 #logo {
+  
     color: black;
     margin-top: 2%;
 
@@ -111,7 +112,7 @@ display:flex;
     // grid-column:13/14 ;
 
     text-align: center;
-
+ 
     background-color: #E5C7BC;
 }
 
@@ -128,13 +129,11 @@ display:flex;
 }
 .link3{
   
-
+    font-size: small;
     font-family: "Thasadith";
   
     text-overflow: ellipsis;
- 
-   
-    font-size: small;
+
 
     text-align: center;
 
@@ -151,11 +150,84 @@ display:flex;
 
 
 .navLinkBank{
+    
 
     display: grid;
     grid-auto-flow: column;
 }
 
 .linkBankContainer{
+    
     overflow: hidden;
+}
+
+
+@media (max-width:500px){
+
+    #c2{
+
+
+        width: 100%;
+    
+    }
+    
+    #c3{
+    display: none;
+    }
+    
+    #c1{
+    display: none;
+    
+    
+    }
+    
+
+    .navLinkBank{
+    padding: 0;
+align-content: center;
+text-align: left;
+
+display: inline;
+
+}
+
+
+
+
+
+
+
+}
+@media (max-width:420px){
+#c2{
+
+
+    width: 100%;
+
+}
+
+#c3{
+display: none;
+}
+
+#c1{
+display: none;
+
+
+}
+
+#logo{
+    padding: 0;
+   height:45px;
+}
+
+
+.navLinkBank{
+    padding: 0;
+align-content: center;
+text-align: left;
+
+display: inline;
+
+}
 }
