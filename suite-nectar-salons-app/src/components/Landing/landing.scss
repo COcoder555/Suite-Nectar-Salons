@@ -15,8 +15,10 @@ text-align: right;
 
 }
 #text2{
-    display: inline-block;
-    text-align: right;
+    justify-content: center;
+    font-size: large;
+    color:rgb(138, 23, 40);
+  
 
   
     }
@@ -24,9 +26,24 @@ text-align: right;
 // transform: translate(100%);
 // }
 .landing-background{
-
-    background-image: url('../../../public/assets/bg1.png');
+    background-image: url('../../../public/assets/salon2img.png');
+ 
    background-repeat: no-repeat;
     background-size: 100%;
 
 }
+
+.landing-bbar{
+
+    height:20vh;
+    width:100%;
+   background-color:   rgba(149,168,90,1);
+color:blue;
+
+}
+
+.innerbar-decoration{
+    border-color: white;
+    border-style: double;
+}
+

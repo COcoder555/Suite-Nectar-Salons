@@ -67,14 +67,12 @@ function Footer(props) {
 <div>7928 Council Place Matthews
    NC 28105
    <div>
-   <a className='ph' href= "">704-800-4008</a>
+  
    <div>
 2250 Hawkins St
-Charlotte, NC 28105
+Charlotte NC 28105
 </div>
-<div>
-<a className='ph' href= "">704-800-4008</a>
-</div>
+<div className='footerPhone'>1 704 334 8055</div>
 </div>
 </div>
 </div>

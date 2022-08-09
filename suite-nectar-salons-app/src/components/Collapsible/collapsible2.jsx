@@ -12,7 +12,7 @@ function Collapse2(){
         <div className='service-card'>
       <Card className='serv'>
      
-      <h3>ESTHETICIANS MED SPA</h3>
+      <h3>ESTHETICIANS MEDSPA</h3>
       <div className='btn1'>
       <button className=' toggleBtn' onClick={() => setIsOpen(!isOpen)}><i className="fa-solid fa-arrow-down fa-2xl"></i> </button>
       </div>

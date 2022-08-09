@@ -9,7 +9,7 @@ function Collapse3(){
         <div className='service-card'>
       <Card className='serv'>
 
-      <h3>TATTOO & PIERCING</h3>
+      <h3>TATTOO  PIERCING</h3>
       <div className='btn1'>
       <button className=' toggleBtn' onClick={() => setIsOpen(!isOpen)}><i className="fa-solid fa-arrow-down fa-2xl"></i> </button>
       </div>

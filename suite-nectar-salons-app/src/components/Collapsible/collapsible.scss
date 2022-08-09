@@ -2,6 +2,8 @@
 
 .serv{
  
+ border-color: rgb(138, 23, 40);
+ border-style: double;
   height:fit-content;
   border-radius: 0%;
   color:white;
@@ -19,7 +21,7 @@ height: fit-content;
   margin:.5%;
 }
 .toggleBtn:hover{
-  color:black;
+  color: rgb(138, 23, 40);
   margin:.5%;
 }
 .btn1{

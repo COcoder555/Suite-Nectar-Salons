@@ -1,19 +1,137 @@
-.contact-background{
+.contact-background {
     background-image: url('../../../public/assets/handsAir.jpg');
-   height: 1100px;
-   background-size: 100%;
-background-repeat: no-repeat;
+    height: 1100px;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
+Form {
 
-.Form{
-    display: block;
+    background-color: none;
+    margin: 10%;
 }
-.Input{
+
+.Input {
+
     box-sizing: border-box;
 }
 
-.flower-background{
-    height: 3600px;
-    background-image: url('../../../public/assets/flowerbg.jpg');
+.flower-background {
+
+    height: fit-content;
+    //     background-image: url('../../../public/assets/flowerbg.jpg');
+    // 
+}
+
+.inquery-text-area {
+    font-family: 'Thasadith';
+    border-radius: 0;
+    border-color: rgb(138, 23, 40);
+    border-style: double;
+    vertical-align: text-top;
+    text-align: left;
+    height: 60vh;
+
+}
+
+.inquery-text-area::placeholder {
+
+    position: absolute;
+    margin: 0;
+    padding: 0;
+
+    #text-area {
+        vertical-align: text-top;
+    }
+
+
+
+
+}
+
+
+#exampleEmail::placeholder {
+    font-family: 'Thasadith';
+
+}
+
+#interest {
+    color: blue;
+}
+
+
+#DropdownToggle {
+    // color:black;
+    background-color: white;
+}
+
+.shTitle {
+    font-family: 'Bad Script';
+}
+
+p {
+    font-weight: 200;
+    font-family: "Thasadith"
+}
+
+.hrsTitle {
+    margin-left: 4%;
+}
+
+.operationHrs {
+    margin-top: 2%;
+    margin-left: 4%;
+    padding-bottom: 4%;
+}
+
+.location1:visited {
+    color: black;
+}
+
+.location2:visited {
+    color: black;
+}
+
+.location1 {
+    text-decoration: none;
+    font-weight: 200;
+    font-family: "Thasadith";
+    color: black;
+}
+
+.location2 {
+    text-decoration: none;
+    font-weight: 200;
+    font-family: "Thasadith";
+    color: black;
+}
+
+select {
+    margin-bottom: 2%;
+}
+
+#exampleEmail {
+    font-family: "Thasadith";
+    color:#8f8989;;
+    height: 8vh;
+    border-radius: 0;
+    border-color: rgb(138, 23, 40);
+    border-style: double;
+}
+
+
+.phNumber {
+    color:rgb(138, 23, 40);
+    text-align: center;
+    font-size: x-large;
+
+}
+.phNumber:hover{
+    color: rgba(149,168,90,1);
+}
+.contact-bbar{
+    height:20vh;
+    width:100%;
+   background-color:  rgb(138, 23, 40);
+color:blue;
 }

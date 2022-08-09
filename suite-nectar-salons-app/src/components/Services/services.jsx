@@ -47,6 +47,7 @@ export default function Services() {
             </div>
           </div>
         </div>
+        <div className='contact-bbar'></div>
       </div>
 
     </div>

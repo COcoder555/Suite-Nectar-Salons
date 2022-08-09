@@ -20,24 +20,25 @@ function Landing() {
                           <Caro></Caro>
                           <div id = "nourish"  className='landing-background col-12'>
                             <h2 id ="text1"  className=''>
-                  Nourish your life with all this text      
+                          
                             </h2>
                             <div >
-                            <p id = "text2" className= 'text-right'>
-                                safjkl;sjfklds;ajfk;lsdaj;l;lkjflk;dsa
-                                jfdklsajklds;fjklds;ajfkdls;ajfkl;dsaj
-                                fkl;dsjafkl;dsajfkld;ajfkdl;sa fdsafdsafdsfdsfadsadfdsafdsafsdfasaf
-                                jfdkl;sajfkld;sajfkl;dsjkl;jkl;dsjfkl;dsjafkl;dsjklaf;jdskl;afjdkl
-                                jdsl;fjdskl;afjklds;ajfkld;sjfkl;dsajfkl;dsjklaf;jdskl;afjklds;jfkls;daj
-                                klds;afjdkls;ajfls;ka
+                            <p id = "text2" className= ' col-6'>
+                            Suite Nectar Salons offers an effortless approach to creating your own salon suite business.  
+As your trusted salon partner, we’re here to support you every step of the way.  
+We focus on creating a thriving community of creative talent, and are committed to offering all the tools you need to succeed. 
+You focus on creating a business that is uniquely you!  
+Join us and the suite life today.  
+
                             </p>
                             </div>
                           </div>
                      
                          
                          
-                          <div className=''>
-                     
+                          <div className='landing-bbar'>
+
+                           
                           </div>
                        
                           
