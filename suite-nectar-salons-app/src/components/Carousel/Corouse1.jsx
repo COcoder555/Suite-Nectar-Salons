@@ -3,6 +3,7 @@ import { UncontrolledCarousel } from 'reactstrap';
 
 
 export default function Caro() {
+  
   const items = [
     {
       src: '../../assets/work3.png',
@@ -25,8 +26,10 @@ export default function Caro() {
   const Example = () => <UncontrolledCarousel items={items} />;
 
   return (
- 
+ <div className='row'>
+  <div className='col-12'>
     <div className='carausel'><Example/></div>
-
+    </div>
+    </div>
   )
 } 

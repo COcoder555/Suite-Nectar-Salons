@@ -1,10 +1,13 @@
 
 
 .row{
+    z-index: 3;
     display: flex;
 }
 
-
+.container{
+    height: 92px;
+}
 
 #logo {
   

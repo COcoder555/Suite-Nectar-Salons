@@ -15,7 +15,7 @@ import {
   NavbarText
 } from 'reactstrap';
 
-
+import barColor from '../Footer/Footer'
 
 let Navhandler = (props) => {
   const handleNavclick = (event) => {
@@ -26,8 +26,8 @@ let Navhandler = (props) => {
   return (
 
     <div className="row">
-
-   
+      <div className="col-12">
+   <div className="row">
         <div id="c1" className="col-2">
         <div className="container">
           <Nav className="link" navbar>
@@ -55,7 +55,7 @@ let Navhandler = (props) => {
             </Nav>
           </div>
           <div className="logo-link">
-            <NavLink onClick={handleNavclick} href="#"> <img id="logo" src="../../assets/snslogo3.png"></img></NavLink>
+            <NavLink onClick={handleNavclick} href="#"><img id="logo" src="../../assets/snslogo3.png"></img></NavLink>
           </div>
          <div className="linkBankContainer">
           <Nav className="link"  navbar>
@@ -76,6 +76,8 @@ let Navhandler = (props) => {
           <NavLink onClick={handleNavclick} href='# ' className="link3">CONTACT</NavLink>
           </NavItem>
           </Nav>
+        </div>
+        </div>
         </div>
 </div>
 </div>

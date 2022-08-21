@@ -16,7 +16,8 @@ import Professionals from "./components/Professionals/professionals";
 import Caro from "./components/Carousel/Corouse1";
 import Experiences from "./components/Experiences/experiences";
 import Leasing from "./components/Leasing/leasing";
-import Caro2 from "./components/Carousel/carousel2";
+import onLanding from './components/Footer/Footer'
+
 import Contacter from "./components/Contact/contact";
 
 import "./app.scss"
@@ -28,29 +29,36 @@ function App() {
   
   return (
 
-    
+   
     <div className="app">
+      <div className="row">
+        <div className="col-12">
+       <div className="row">
+        <div className="col-12">
            <div className="App">
             <nav >
       <Navhandler currentPage ={currentPage} setCurrentPage ={setCurrentPage}/>
       </nav>
-      {currentPage===''? <Landing/>:''}
-      {currentPage ==='SERVICES'? <Services/>: ''}
+      {currentPage===''? <Landing  />:''}
+      {currentPage ==='SERVICES'? <Services Bar = {true}/>: ''}
       {currentPage ==='ABOUT'? <About/>: ''}
-      {currentPage ==='GALLERY'? <Gallery/>: ''}
+      {currentPage ==='GALLERY'? <Gallery />: ''}
       {currentPage ==='PROFESSIONALS'? <Professionals/>: ''}
       {currentPage ==='LEASING'? <Leasing/>: ''}
       {currentPage ==='EXPERIENCES'? <Experiences/>: ''}
-      {currentPage ==='CONTACT'? <Contacter/>: ''}
+      {currentPage ==='CONTACT'? <Contacter   />: ''}
       
    
    
     </div>
   
 
-    <Footer currentPage = {currentPage} setCurrentPage ={setCurrentPage}/>
+    <Footer className ="col-12" currentPage = {currentPage} setCurrentPage ={setCurrentPage}/>
       </div>
-
+      </div>
+      </div>
+      </div>
+      </div>
   );
 }
 

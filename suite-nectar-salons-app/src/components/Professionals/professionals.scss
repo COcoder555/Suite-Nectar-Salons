@@ -1,6 +1,35 @@
-.pro-background{
-    background-image: url('../../../public/assets/salon2img.png');
-    // display: grid;
 
-    height: 51vh;
+.gallery-background{
+    background-image: url('../../../public/assets/work3.png');
+   height:119vh;
+   background-size: 100%;
+background-repeat: no-repeat;
+margin-bottom: 0%;
+}
+
+
+.galleryTitle{
+padding-bottom: 2%;
+justify-content: center;
+background-color: black;
+height: fit-content;
+color:white;
+
+}
+
+
+.galleryImg-container{
+background-color:black;
+
+}
+
+.galleryImg{
+    height: fit-content;
+}
+
+.col-3{
+    height: 350px;
+    margin: 4%;
+    background-color: white;
+    background-image: url('../../../public/assets/work3.png');
 }

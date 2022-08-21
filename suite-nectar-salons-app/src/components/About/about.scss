@@ -1,13 +1,63 @@
 #about{
     color:black;
-    height: 1000px;
+    height: fit-content;
     background-color:white;
 }
 
 
 .about-background{
-    background-image: url('../../../public/assets/salon2img.png');
-    // display: grid;
+    background-image: url('../../../public/assets/work3.png');
+    height:119vh;
+    background-size: 100%;
+ background-repeat: no-repeat;
+}
 
-    height: 51vh;
+
+.philoTitle{
+margin-top: 0;
+background-color:grey;
+height:fit-content;
+
+padding: 4%;
+}
+
+
+.split-container{
+    background-color:white;
+    height:fit-content;
+}
+
+
+.philoText{
+
+    text-align: center;
+    color:black;
+    margin-bottom: 2%;
+    
+}
+
+
+.aboutImg{
+    background-image: url('../../../public/assets/work3.png');
+background-color:pink;
+
+    height: 110vh;
+}
+
+.aboutHrsBackground{
+    background-image: url('../../../public/assets/bg1.png');
+ 
+    height: 110vh;
+}
+
+
+.partnerBar{
+
+
+
+    height: 60vh;
+    width: 100vw;
+    background-color:grey;
+
+
 }

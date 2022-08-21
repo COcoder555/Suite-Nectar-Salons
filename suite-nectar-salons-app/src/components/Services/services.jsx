@@ -7,6 +7,7 @@ import Collapse2 from '../Collapsible/collapsible2'
 import Collapse3 from '../Collapsible/collapsible3'
 import Collapse4 from '../Collapsible/collapsible4'
 import Footer from '../Footer/Footer'
+import Bar from '../BBar/bbar';
 
 export default function Services() {
   return (
@@ -47,9 +48,10 @@ export default function Services() {
             </div>
           </div>
         </div>
-        <div className='contact-bbar'></div>
-      </div>
 
+      </div>
+      {/* <div className='contactBar'/> */}
+{/* <Bar></Bar> */}
     </div>
   )
 }

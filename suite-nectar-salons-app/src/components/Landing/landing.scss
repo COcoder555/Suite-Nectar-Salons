@@ -1,5 +1,5 @@
 
-#nourish{
+#landing{
     // height: 1600px;
     background-color:rgb(246, 232, 232);
 color:white;
@@ -11,39 +11,71 @@ color:black
 text-align: right;
 
 }
-.text-right{
 
-}
-#text2{
-    justify-content: center;
-    font-size: large;
-    color:rgb(138, 23, 40);
-  
 
-  
-    }
 // #text2:hover{
 // transform: translate(100%);
 // }
 .landing-background{
     background-image: url('../../../public/assets/salon2img.png');
- 
+    width: 100vw;
    background-repeat: no-repeat;
     background-size: 100%;
 
 }
 
-.landing-bbar{
 
-    height:20vh;
-    width:100%;
-   background-color:   rgba(149,168,90,1);
-color:blue;
-
-}
 
 .innerbar-decoration{
     border-color: white;
     border-style: double;
 }
 
+.animateText{
+    text-align: center;
+    width: fit-content;
+    float: right;
+    padding-top:32vh;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    justify-content: center;
+    font-size: large;
+    color:black;
+  
+    transition: transform 1s;
+    overflow: hidden;
+    animation-name: slidein; 
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    margin-right:none;
+    white-space:pre-line;
+}
+@keyframes slidein {
+from{
+transform: translate(1100px);
+    }
+
+to {
+transform: translate(30px);
+}
+}
+
+.text4{
+
+    font-size:200px;
+    float: right;
+     padding-top:31vh;
+     justify-content: center;
+     font-size: large;
+    
+display: none;
+   overflow: hidden;
+}
+     
+
+#Join{
+  
+    margin-top:10%;
+    padding:4%;
+    color:rgb(138, 23, 40);
+}

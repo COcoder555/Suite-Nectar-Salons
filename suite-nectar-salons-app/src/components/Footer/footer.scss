@@ -1,7 +1,11 @@
+.row {
+    width: 100vw;
+}
+
 #footer {
     display: grid;
     grid-auto-flow: column;
-  height: fit-content;
+    height: fit-content;
     background-color: #3e3e3f;
     text-align: center;
 
@@ -10,6 +14,7 @@
 #logo2 {
     margin-left: 0;
     margin-top: 3%;
+    
 }
 
 
@@ -18,11 +23,11 @@
 // }
 .footerLinks {
     font-family: "Thasadith";
-//   padding-top:18%;
-    display:flex;
+    //   padding-top:18%;
+    display: flex;
     justify-content: center;
     grid-auto-flow: column;
- 
+
 }
 
 .socialMedia {
@@ -34,13 +39,13 @@
 }
 
 #SM {
-    
+
     color: white;
 }
 
 #SM:hover {
-    color:rgb(138, 23, 40),
-    // color: #E5C7BC;
+    color: rgb(138, 23, 40),
+        // color: #E5C7BC;
 }
 
 .footer-card {
@@ -66,19 +71,42 @@
 
 
 
-.FL{
-  
+.FL {
+
     font-size: small;
     // margin-top: 30px; 
-    margin:1vw;
-    }
-    .FL:visited{
-        color:white;
-    }
-    .FL:hover{
-        text-decoration: underline;
-    }
-    
-    .footerPhone:hover{
-   text-decoration: underline;
-    }
+    margin: 1vw;
+}
+
+.FL:visited {
+    color: white;
+}
+
+.FL:hover {
+    text-decoration: underline;
+}
+
+.footerPhone:hover {
+    text-decoration: underline;
+}
+
+.footerPhone {
+    font-family: "Thasadith";
+}
+
+
+.landingBar{
+
+    height: 20vh;
+    width: 100vw;
+    background-color: rgba(149, 168, 90, 1);
+
+
+}
+
+
+.contactBar {
+    height: 20vh;
+    width: 100vw;
+    background-color: rgb(138, 23, 40);
+}
