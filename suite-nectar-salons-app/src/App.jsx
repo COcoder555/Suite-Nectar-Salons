@@ -1,7 +1,7 @@
 
 
 
-import React, {useState} from "react";
+import React, { useState } from "react";
 import Landing from "./components/Landing/landing";
 import Navhandler from './components/Nav/Navbar';
 import Contact from "./components/pages/contact/Contact";
@@ -26,39 +26,40 @@ import "./app.scss"
 function App() {
   // const [currentPage, targetPage] = useState();
   const [currentPage, setCurrentPage] = useState('');
-  
+
   return (
 
-   
+
     <div className="app">
       <div className="row">
-        <div className="col-12">
-       <div className="row">
-        <div className="col-12">
-           <div className="App">
-            <nav >
-      <Navhandler currentPage ={currentPage} setCurrentPage ={setCurrentPage}/>
-      </nav>
-      {currentPage===''? <Landing  />:''}
-      {currentPage ==='SERVICES'? <Services Bar = {true}/>: ''}
-      {currentPage ==='ABOUT'? <About/>: ''}
-      {currentPage ==='GALLERY'? <Gallery />: ''}
-      {currentPage ==='PROFESSIONALS'? <Professionals/>: ''}
-      {currentPage ==='LEASING'? <Leasing/>: ''}
-      {currentPage ==='EXPERIENCES'? <Experiences/>: ''}
-      {currentPage ==='CONTACT'? <Contacter   />: ''}
-      
-   
-   
-    </div>
-  
 
-    <Footer className ="col-12" currentPage = {currentPage} setCurrentPage ={setCurrentPage}/>
+        <div className="row">
+          <div className="col-12">
+            <div className="App">
+              <nav >
+                <Navhandler className = "col-12" currentPage={currentPage} setCurrentPage={setCurrentPage} />
+              </nav>
+              {currentPage  === '' ? <Landing /> : ''}
+              {currentPage === 'SERVICES' ? <Services Bar={true} /> : ''}
+              {currentPage === 'ABOUT' ? <About /> : ''}
+              {currentPage === 'GALLERY' ? <Gallery /> : ''}
+              {currentPage === 'PROFESSIONALS' ? <Professionals /> : ''}
+              {currentPage === 'LEASING' ? <Leasing /> : ''}
+              {currentPage === 'EXPERIENCES' ? <Experiences /> : ''}
+              {currentPage === 'CONTACT' ? <Contacter /> : ''}
+
+
+
+
+
+                <div className="footerContainer">
+              <Footer className="col-12" currentPage={currentPage} setCurrentPage={setCurrentPage} />
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      </div>
-      </div>
-      </div>
-      </div>
+    </div>
   );
 }
 

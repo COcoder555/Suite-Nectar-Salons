@@ -4,7 +4,10 @@
     background-color:white;
 }
 
-
+.about-container{
+    width:fit-content;
+    margin:0%;
+}
 .about-background{
     background-image: url('../../../public/assets/work3.png');
     height:119vh;
@@ -17,8 +20,9 @@
 margin-top: 0;
 background-color:grey;
 height:fit-content;
-
+margin-right:0%;
 padding: 4%;
+width: 100vw;
 }
 
 
@@ -60,4 +64,7 @@ background-color:pink;
     background-color:grey;
 
 
+}
+.row{
+    width: 100vw;
 }

@@ -1,7 +1,9 @@
 *{
     box-sizing: border-box;
 }
-
+// .row{
+//     width: vw;
+// }
 .body{
 margin: 0;
 padding:0;
@@ -18,8 +20,16 @@ nav{
     left: 0;
 }
 
-
+.App{
+    margin:0%;
+    width: 100vw;
+}
 #footer{
   
     width: 102vw;
+}
+
+
+.footerContainer{
+    width: 100vw;
 }

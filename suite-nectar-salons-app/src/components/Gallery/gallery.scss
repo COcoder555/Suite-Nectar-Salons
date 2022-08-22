@@ -1,31 +1,32 @@
 
 
 
-.professional-background{
+.gallery-background{
     background-image: url('../../../public/assets/work3.png');
    height:119vh;
    background-size: 100%;
 background-repeat: no-repeat;
 margin-bottom: 0%;
+width: 100vw;
 }
 
 
-.professionalTitle{
+.galleryTitle{
 padding-bottom: 2%;
 justify-content: center;
-background-color:black;
+background-color: black;
 height: fit-content;
 color:white;
-
+width: 100vw;
 }
 
 
-.professionalImg-container{
+.galleryImg-container{
 background-color:black;
-
+width: 100vw;
 }
 
-.professionalImg{
+.galleryImg{
     height: fit-content;
 }
 
