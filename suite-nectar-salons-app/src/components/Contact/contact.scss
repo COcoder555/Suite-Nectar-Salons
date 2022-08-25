@@ -2,22 +2,17 @@
     background-image: url('../../../public/assets/work3.png');
     height:119vh;
     background-size: 100%;
+    width: 100vw;
  background-repeat: no-repeat;
-}
-
-Form {
- align-items: center;
-  
-    margin:2%;
-
-    background-color: none;
 
 }
 
-Input {
-margin-left: 2%;
+.contact-wrapper{
 
-}
+    }
+
+
+
 
 .flower-background {
     height: fit-content;
@@ -64,7 +59,8 @@ margin-left: 2%;
 }
 
 .interest {
-   margin-left:2%;
+   margin-left:5%;
+
 }
 
 
@@ -108,10 +104,19 @@ text-decoration-color: black;
     text-decoration-color: black;
 };
     
-    
+
 .contact-wrapper2{
     justify-content: center;
-    align-items: center;
+    background-color: white;
+  padding-top:3%;
+  padding-left:15%;
+display: flex;
+width: 100vw;
+
+}
+
+Form{
+    width: fit-content;
 }
 .location1 {
     text-decoration: none;
@@ -150,3 +155,12 @@ select {
 .phNumber:hover{
     color: rgba(149,168,90,1);
 }
+
+#expamplEmail{
+    width: 400px;
+    }
+
+
+    .row{
+  
+    }

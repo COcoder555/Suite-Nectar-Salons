@@ -14,15 +14,15 @@ padding:0;
 nav{
     z-index: 1;
     position: fixed;
- 
+  
     height: 90px;
     top: 0;
     left: 0;
 }
 
 .App{
-    margin:0%;
-    width: 100vw;
+    margin:auto;
+
 }
 #footer{
   
@@ -31,5 +31,8 @@ nav{
 
 
 .footerContainer{
+    width: 100vw;
+}
+.row{
     width: 100vw;
 }
