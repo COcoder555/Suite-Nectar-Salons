@@ -14,15 +14,13 @@ export default function Services() {
 
 
     <div>
-   
 
-      
+
+
       <div className='wrapper'>
-      <div className = 'serv-bg1-container'>
      
-      </div>
         <div className='service-background-img'>
-        <div className='serv-background1'></div>
+          <div className='serv-background1'></div>
           <div className='services-background'>
 
 
@@ -51,7 +49,7 @@ export default function Services() {
 
       </div>
       {/* <div className='contactBar'/> */}
-{/* <Bar></Bar> */}
+      {/* <Bar></Bar> */}
     </div>
   )
 }

@@ -48,9 +48,11 @@ let Navhandler = (props) => {
             <Nav className="link"  navbar>
               <NavItem className="navLinkBank" nav caret>
               
-                <NavLink onClick={handleNavclick} href='#' className="S">SERVICES</NavLink>
+              
                 <NavLink onClick={handleNavclick} href='#' className="S">ABOUT</NavLink>
-                <NavLink onClick={handleNavclick} href='#' className="S">GALLERY</NavLink>
+                <NavLink onClick={handleNavclick} href='#' className="S">SERVICES</NavLink>
+                <NavLink onClick={handleNavclick} href='#' className="S">PROFESSIONALS</NavLink>
+                
               </NavItem>
             </Nav>
           </div>
@@ -61,8 +63,9 @@ let Navhandler = (props) => {
           <Nav className="link"  navbar>
             <NavItem className="navLinkBank" nav caret>
 
-              <NavLink onClick={handleNavclick} href='#' className="S">PROFESSIONALS</NavLink>
+          
               <NavLink onClick={handleNavclick} href='#' className="S">LEASING</NavLink>
+              <NavLink onClick={handleNavclick} href='#' className="S">GALLERY</NavLink>
               <NavLink onClick={handleNavclick} href='#' className="S">EXPERIENCES</NavLink>
             </NavItem>
           </Nav>

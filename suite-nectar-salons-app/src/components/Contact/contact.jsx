@@ -1,11 +1,25 @@
-import { React, useState } from 'react'
+import { React, useState,useRef,ref } from 'react'
 import './contact.scss'
-import { Form, FormGroup, Label, Select, Input, Row, Col, Dropdown, DropdownMenu, DropdownToggle, DropdownItem, } from 'reactstrap'
+import { Form, FormGroup,Button, Label, Select, Input, Row, Col, Dropdown, DropdownMenu, DropdownToggle, DropdownItem, } from 'reactstrap'
 import Navhandler from '../Nav/Navbar';
 import Bar from '../BBar/bbar';
+import emailjs from "emailjs-com";
 
 
 function Contacter({ direction, ...args }) {
+
+const form = useRef();
+let sendEmail = (e)=>{
+  e.preventDefault();
+
+    emailjs.sendForm('service_igdq1hc', 'suiteNectarS124', e.target, 'sG7gzaL6Dl23a8o8V')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+e.target.reset();
+};
 
   const [dropdownOpen, setDropdownOpen] = useState(false);
 
@@ -21,41 +35,32 @@ function Contacter({ direction, ...args }) {
 
   return (
     <div>
-
-
-
-      <div className='contact-wrapper'>
-      <Navhandler />
-        <div className='row'>
-          <div className='col-12'>
-
-        
-          
-          <div className='contact-background'></div>
-
-
-            <div className='flower-background'>
-            <div className='container2'>
-              <div id="serv">
+         <Navhandler />
+      <div className='wrapper'>
+        <div className='contactBackground-container'>
+        <div className='contact-background'></div>
+       
+        <div className = 'headerBackground'>
 
                 <h1>
                   CONTACT
                 </h1>
                 <div className='phNumber'>1 704 334 8055</div>
               </div>
-
-              <div className='contact-wrapper2'>
-              
-                <Form>
-                  <Row>
-                    <Col md={5}>
-                      <FormGroup>
+        </div>
+      <div className='formBackroung-wrapper'>
+        <div className='formBackground'>
+          <div className='contact-wrapper'>
+            <Form ref={{form}} onSubmit={sendEmail}>
+              <Row className='contactRow-1'>
+                <Col md={5}>
+                  <FormGroup>
 
                         <Input
                           id="exampleEmail"
-                          name=""
+                          name="name"
                           placeholder="NAME"
-                          type=""
+                          type="text"
                         />
                       </FormGroup>
                     </Col>
@@ -64,9 +69,9 @@ function Contacter({ direction, ...args }) {
 
                         <Input
                           id="exampleEmail"
-                          name=""
+                          name="phone"
                           placeholder="PHONE"
-                          type=""
+                          type="text"
                         />
 
                       </FormGroup>
@@ -87,20 +92,21 @@ function Contacter({ direction, ...args }) {
 
                         <Input
                           id="exampleEmail"
-                          name=""
+                          name="source"
                           placeholder="HOW DID YOU HEAR ABOUT SUITE NECTAR SALONS?"
-                          type=""
+                          type="text"
                         />
 
                       </FormGroup>
                     </Col>
+                 
                     <Col md={10}>
-
+                  
 
 
                       <div className='interest'>
                         <h4></h4>
-                        <select id="exampleEmail" value={selection} onChange={e => setSelection(e.target.value)} className='col-12'>
+                        <select name ='interest' id="exampleEmail" value={selection} onChange={e => setSelection(e.target.value)} className='col-12'>
                           <option value="" disabled selected>*INTEREST</option>
                           <option value="HAIRSTYLISTS BARBERS">COSMOTOLOGISTS HAIRSTYLISTS  BARBERS</option>
                           <option value="SPA SERVICES">ESTHETICIANS MEDSPA</option>
@@ -112,21 +118,33 @@ function Contacter({ direction, ...args }) {
                       </div>
 
                     </Col>
-                    <Col md={10}>
+
+              <Col md={10}>
                       <FormGroup>
                         <Input className='inquery-text-area'
                           id="text area"
-                          name=""
+                          name="message"
                           placeholder="INQUIRY"
-                          type=""
+                          type="text"
                         />
                       </FormGroup>
 
                     </Col>
-                  </Row>
-                </Form>
-              </div>
-              <div className='hrsTitle'>
+                    </Row>
+                    <Row id='subButtonRow'>
+                    <Col >
+                      <Button type ='submit' value ='send Message'className='submitButton'>
+                  SUBMIT
+                 
+                      </Button>
+
+                    </Col>
+                    </Row>
+       
+        </Form>
+        </div>
+        </div>
+        <div className='hrsTitle'>
                 <div className='col-6'>
                   <h2 className='shTitle'>HOURS</h2>
                 </div>
@@ -148,7 +166,6 @@ function Contacter({ direction, ...args }) {
                   </ui>
                 </div>
               </div>
-
               <div className='operationHrs'>
                 <div className='col-6'>
                   <h2 className='shTitle'>LOCATIONS</h2>
@@ -169,13 +186,14 @@ function Contacter({ direction, ...args }) {
                 </div>
 
               </div>
-            </div>
-            </div>
-          </div>
-        </div>
+          
+        </div>'
+
+
       </div>
-     
-      {/* <Bar></Bar> */}
+
+
+
     </div>
   )
 }

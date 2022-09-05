@@ -1,18 +1,52 @@
-<div className='col-12'>
+import { React, useState } from 'react'
+import './contact.scss'
+import { Form, FormGroup, Label, Select, Input, Row, Col, Dropdown, DropdownMenu, DropdownToggle, DropdownItem, } from 'reactstrap'
+import Navhandler from '../Nav/Navbar';
+import Bar from '../BBar/bbar';
+
+
+function Contacter({ direction, ...args }) {
+
+  const [dropdownOpen, setDropdownOpen] = useState(false);
+
+  const toggle = () => setDropdownOpen(prevState => !prevState);
+
+  const [selection, setSelection] = useState("");
+
+
+
+
+  console.log(selection)
+
+
+  return (
+    <div>
+
+
+
+      <div className='contact-wrapper'>
       <Navhandler />
-      <div className='contact-container'>
-        <div className="contact-background" />
-
-        <div className='contactTitle'>
-          <h1>Contact</h1>
-        </div>
-        <div className='phNumber'>1 704 334 8055</div>
         <div className='row'>
-        <div className = 'col-12'>
+          <div className='col-12'>
+
         
+          
+          <div className='contact-background'></div>
 
 
-        <Form>
+            <div className='flower-background'>
+            <div className='container2'>
+              <div id="serv">
+
+                <h1>
+                  CONTACT
+                </h1>
+                <div className='phNumber'>1 704 334 8055</div>
+              </div>
+
+              <div className='contact-wrapper2'>
+              
+                <Form>
                   <Row>
                     <Col md={5}>
                       <FormGroup>
@@ -132,16 +166,18 @@
 
                   </div>
 
+                </div>
 
-
-
-
-
-
-
-
-               </div>
-                  </div>
+              </div>
+            </div>
             </div>
           </div>
- </div>
+        </div>
+      </div>
+     
+      {/* <Bar></Bar> */}
+    </div>
+  )
+}
+
+export default Contacter
