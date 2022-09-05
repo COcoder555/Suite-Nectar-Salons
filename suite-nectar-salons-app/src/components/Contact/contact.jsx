@@ -113,7 +113,7 @@ e.target.reset();
                           <option value="TATOOO  PIERCING">TATOOO PIERCING</option>
                           <option value="GENERAL INQUIRY">GENERAL INQUIRY</option>
 
-                          <option value="SPA SERVICES">LEASING</option>
+                          <option value="LEASING">LEASING</option>
                         </select>
                       </div>
 
