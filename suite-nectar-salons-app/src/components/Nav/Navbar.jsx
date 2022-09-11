@@ -12,7 +12,8 @@ import {
   DropdownToggle,
   DropdownMenu,
   DropdownItem,
-  NavbarText
+  NavbarText,
+  Button
 } from 'reactstrap';
 
 import barColor from '../Footer/Footer'
@@ -58,6 +59,7 @@ let Navhandler = (props) => {
           </div>
           <div className="logo-link">
             <NavLink onClick={handleNavclick} href="#"><img id="logo" src="../../assets/snslogo3.png"></img></NavLink>
+         
           </div>
          <div className="linkBankContainer">
           <Nav className="link"  navbar>

@@ -6,7 +6,7 @@
 }
 
 .container{
-    height: 92px;
+    height: fit-content
 }
 
 #logo {
@@ -150,7 +150,14 @@ display:flex;
     padding-left: 5%;
     justify-content: center;
 }
-
+#joinButton{
+font-size: 15px;
+height:20px;
+margin-top: 0;
+margin-left:7%;
+margin-bottom:2%;
+background-color:rgb(138, 23, 40);;
+}
 
 .navLinkBank{
     

@@ -1,4 +1,6 @@
 *{
+    margin:0;
+    padding:0;
     box-sizing: border-box;
 }
 // .row{
@@ -21,18 +23,16 @@ nav{
 }
 
 .App{
-    margin:auto;
+    margin:0;
 
 }
 #footer{
   
-    width: 102vw;
+    width: 100vw;
 }
 
 
 .footerContainer{
     width: 100vw;
 }
-.row{
-    width: 100vw;
-}
+

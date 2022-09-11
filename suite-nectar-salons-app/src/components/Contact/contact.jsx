@@ -42,14 +42,15 @@ e.target.reset();
        
         <div className = 'headerBackground'>
 
-                <h1>
-                  CONTACT
-                </h1>
-                <div className='phNumber'>1 704 334 8055</div>
+                
               </div>
         </div>
       <div className='formBackroung-wrapper'>
-        <div className='formBackground'>
+        <div className='formBackground'><h1>
+                  CONTACT
+                </h1>
+                <div className='phNumber'>1 704 334 8055</div>
+
           <div className='contact-wrapper'>
             <Form ref={{form}} onSubmit={sendEmail}>
               <Row className='contactRow-1'>
@@ -130,8 +131,8 @@ e.target.reset();
 
                     </Col>
                     </Row>
-                    <Row id='subButtonRow'>
-                    <Col >
+                    <Row className ='subBtnRow'>
+                    <Col md ={1} >
                       <Button type ='submit' value ='send Message'className='submitButton'>
                   SUBMIT
                  

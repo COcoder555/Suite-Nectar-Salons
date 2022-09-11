@@ -29,12 +29,35 @@ background-color:#3e3e3f;
     height: fit-content;
 }
 
-.col-3{
-    height: 350px;
-    margin: 4%;
+.par{
+    display: flex;
+
+    height: 250px;
+    margin: 20px;
     background-color: white;
     background-image: url('../../../public/assets/work3.png');
 }
 .professionalImg-container{
+    color:white;
+   padding-top:1%;
     width: 100vw;
+}
+// Image Containers  for each section of professionals
+.cosoProfImgContainer{
+
+
+}
+
+.asheticianProfImgContainer{
+    
+
+}
+.profTattooIgmContainer{
+    margin:1%;
+
+}
+
+.rL{
+display: flex;
+justify-content: center;
 }

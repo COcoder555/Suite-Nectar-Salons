@@ -17,7 +17,7 @@ import Caro from "./components/Carousel/Corouse1";
 import Experiences from "./components/Experiences/experiences";
 import Leasing from "./components/Leasing/leasing";
 import onLanding from './components/Footer/Footer'
-
+import collapsible from "./components/Collapsible/collapsible";
 import Contacter from "./components/Contact/contact";
 
 import "./app.scss"
@@ -33,14 +33,14 @@ function App() {
     <div className="app">
       <div className="row">
 
-        <div className="row">
-          <div className="col-12">
+    
+       
             <div className="App">
               <nav >
                 <Navhandler className = "col-12" currentPage={currentPage} setCurrentPage={setCurrentPage} />
               </nav>
               {currentPage  === '' ? <Landing /> : ''}
-              {currentPage === 'SERVICES' ? <Services Bar={true} /> : ''}
+              {currentPage === 'SERVICES' ? <Services currentPage={currentPage} setCurrentPage={setCurrentPage}  /> : ''}
               {currentPage === 'ABOUT' ? <About /> : ''}
               {currentPage === 'GALLERY' ? <Gallery /> : ''}
               {currentPage === 'PROFESSIONALS' ? <Professionals /> : ''}
@@ -54,10 +54,10 @@ function App() {
 
                 <div className="footerContainer">
               <Footer className="col-12" currentPage={currentPage} setCurrentPage={setCurrentPage} />
-              </div>
+              
             </div>
           </div>
-        </div>
+       
       </div>
     </div>
   );

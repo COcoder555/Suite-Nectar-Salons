@@ -6,7 +6,7 @@ export default function Caro() {
   
   const items = [
     {
-      src: '../../assets/work3.png',
+      src: '../../assets/HBS.jpg',
       altText: 'Slide 1',
   
     

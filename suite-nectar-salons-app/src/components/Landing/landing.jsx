@@ -47,7 +47,7 @@ function Landing() {
         <Navhandler/>
             <div className="landing-container">
                 <div className='caro-style'>
-                                    <Caro></Caro>
+                                    <Caro id = "Caro"></Caro>
                        </div>
 
 

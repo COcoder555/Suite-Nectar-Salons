@@ -1,33 +1,38 @@
 .contact-background {
     background-image: url('../../../public/assets/work3.png');
-    height:119vh;
+    height: 119vh;
     background-size: 100%;
     width: 100vw;
- background-repeat: no-repeat;
+    background-repeat: no-repeat;
 
 }
-.contactRow-1{
-   justify-content: center; 
+
+.contactRow-1 {
+    justify-content: center;
 }
-.contactRow-2{
-justify-content: center;
+
+.contactRow-2 {
+    justify-content: center;
 }
 
 
 .formBackground {
 
-height: fit-content;
+    height: fit-content;
+    background-repeat: no-repeat;
     background-image: url('../../../public/assets/bg1.png');
     width: 100vw;
-  
+
 
     // background-image:url('../../../public/assets/bg1.png');
     background-repeat: no-repeat;
 }
-.headerBackground{
-  width: 100vw;
-    background-image: url('../../../public/assets/bg1.png');   
+
+.headerBackground {
+    width: 100vw;
+    background-image: url('../../../public/assets/bg1.png');
 }
+
 .inquery-text-area {
     font-family: 'Thasadith';
     border-radius: 0;
@@ -61,7 +66,7 @@ height: fit-content;
 }
 
 .interest::selection {
-justify-content: start;
+    justify-content: start;
 }
 
 
@@ -96,30 +101,35 @@ p {
 .location2:visited {
     color: black;
 }
+
 .location1:hover {
-text-decoration: underline;
-text-decoration-color: black;
+    text-decoration: underline;
+    text-decoration-color: black;
 }
+
 .location2:hover {
     text-decoration: underline;
     text-decoration-color: black;
-};
-    
+}
 
-.contact-wrapper2{
+;
+
+
+.contact-wrapper2 {
     justify-content: center;
     background-color: white;
-  padding-top:3%;
-  padding-left:15%;
-display: flex;
-width: 100vw;
+    padding-top: 3%;
+    padding-left: 15%;
+    display: flex;
+    width: 100vw;
 
 
 }
 
-Form{
+Form {
     width: fit-content;
 }
+
 .location1 {
     text-decoration: none;
     font-weight: 200;
@@ -140,7 +150,8 @@ select {
 
 #exampleEmail {
     font-family: "Thasadith";
-    color:#8f8989;;
+    color: #8f8989;
+    ;
     height: 8vh;
     border-radius: 0;
     border-color: rgb(138, 23, 40);
@@ -149,27 +160,49 @@ select {
 
 
 .phNumber {
-    color:rgb(138, 23, 40);
+    padding: 2%;
+    color: rgb(138, 23, 40);
     text-align: center;
     font-size: x-large;
 
 }
-.phNumber:hover{
-    color: rgba(149,168,90,1);
+
+.phNumber:hover {
+    color: rgba(149, 168, 90, 1);
 }
 
-#expamplEmail{
+#expamplEmail {
     width: 400px;
-    }
+}
 
-.submitButton{
-    
+.submitButton {
+
     background-color: rgb(138, 23, 40);
 
 }
 
+.submitButton:hover {
+    background-color: rgba(149, 168, 90, 1);
+}
+
+.subBtnRow {
+    justify-content: center;
+}
+
+.profBtnContainer{
+justify-content: center;
+}
+#profBtn{
+background-color: rgb(138, 23, 40);
+justify-content: center;
+height: fit-content
+}
+
+.profBtn:hover{
+
+    background-color: rgba(149, 168, 90, 1);
+
+}
 
 
-    .row{
-  
-    }
+.row {}
