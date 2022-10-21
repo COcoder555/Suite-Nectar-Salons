@@ -1,0 +1,36 @@
+{
+    "data":[
+    { 
+        "name":"Monique Guinn ",
+        "salonLocation": "Matthews",
+        "bioText": "My Name is Monique Guinn and I love helping people do better for themselves and for their families! I am the Master Teeth Whitening Technician and Instructor. The Teeth Whitening School will be offering our Introduction to Teeth Whitening course right here in the salon suite. We want to invite anybody between the ages of 17 and up who would like to start a career as a Certified Teeth Whitening Technician. We offer a complete system to help people get up and going from start to finish!  We also offer an affordable 20–40-minute teeth whitening services to the public! You would need to book an appointment on our website in order to receive this service! We do not accept walk-ins.  Things the school provides for students: We will provide hands-on whitening kits, Laser LED lights, whitening demonstrations, dental mannequins, Introduction to Teeth Whitening Manuals, awesome customer service, and so much more. You will be able to ask questions and learn from other students.  ",
+        "link2" :"httpa://wwww.linkedin.com/",
+        "link1": "https://www.teethwhiteningschool.com",
+        "link1Name":"THE TEETH WHITENING SCHOOL",
+        "link2Name":"Phone",
+        "badgeLink1": "http://www.google.com",
+        "img" : "../Images/prof1.jpg"
+        
+    },
+    {
+"name":"Josephine",
+"salonLocation": "Matthews",
+"link1":"https://www.google.com/",
+"link2":"httpa://wwww.linkedin.com/",
+"badgeLink1":"http://www.yahoo.com/",
+"bioText": "THIS IS THE BIO OF PROF2 THIS IS JUST A REALLY GREAT PLACE TO DISPLAY INFROMATION ABOUT WHO I AM",
+"img": "../Images/prof1.jpg"
+    },
+    {
+"name":"Tanita",
+"salonLocation": "Matthews",
+ "bioText":"Enter Shear Bliss ..... Where Owner/ Operator/ Hair Innovator Tanita offers integrity as the standard, not an option. With over 20 years in the beauty industry, Tanita has proven to be relevant and reliable. Being the creative re-inventor of your image is top priority. Flawless hair extensions, edgy cuts, customized coloring and use of the most up to date hair products is always the rule at Shear Bliss. All things beautiful begin at Shear Bliss, where beauty is bliss, come experience. Headshot:",
+"badgeLink1":"http://www.yahoo.com/",
+"link2":"httpa://wwww.linkedin.com/",
+"link1": "https://www.google.com/"
+    }
+
+
+    
+]
+}

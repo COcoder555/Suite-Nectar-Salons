@@ -1,7 +1,7 @@
 
 .professional-background{
     background-image: url('../../../public/assets/work3.png');
-   height:119vh;
+   height:80vh;
    background-size: 100%;
 background-repeat: no-repeat;
 margin-bottom: 0%;
@@ -30,18 +30,39 @@ background-color:#3e3e3f;
 }
 
 .par{
-    display: flex;
-
-    height: 250px;
+    justify-content: center;
+    align-content: center;
+    // display: grid;
+    // grid-template-columns: repeat(3,300px);
+    display:flex;
+    height: 45vh;
+    width: 45vh;
     margin: 20px;
     background-color: white;
-    background-image: url('../../../public/assets/work3.png');
+    // background-image: url('../../../public/assets/work3.png');
 }
+
+
+
+.h2{
+    color:yellow;
+    font-size: 100px;
+}
+
+
 .professionalImg-container{
     color:white;
    padding-top:1%;
     width: 100vw;
 }
+
+
+.Modal1{
+    background-color: yellow;
+}
+
+
+
 // Image Containers  for each section of professionals
 .cosoProfImgContainer{
 
@@ -61,3 +82,59 @@ background-color:#3e3e3f;
 display: flex;
 justify-content: center;
 }
+
+
+
+
+.photo{
+    display: flex;
+}
+
+
+.modal-container{
+    justify-content: center;
+    align-items:center;;
+}
+
+a{
+    color:black;
+    font-size: large;
+}
+
+
+.try{
+    color:black;
+}
+// .modal-container{
+//     position: absalute;
+//  height: 100%;
+//  background-color: yellow;
+//  // position: fixed;
+//  // top:0;
+ 
+ 
+//  // z-index: 4;
+//  // color:yellow
+//  }
+
+#profImg{
+  
+   -webkit-filter: grayscale(100%);
+}
+
+#profImg:hover{
+    // -webkit-filter: grayscale(0%);
+    
+    border-style:ridge;
+    
+    border-color:rgb(138, 23, 40);
+    border-width: 10px;
+}
+
+
+
+.col-2{
+    background-color: #3e3e3f;
+}
+
+

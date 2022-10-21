@@ -5,14 +5,23 @@ import { Card, CardBody,Button } from 'reactstrap'
 
 
 
-function Collapse2(props){
-  const handleNavclick = (event) => {
-    console.log(event.target.name)
-    props.setCurrentPage(event.target.name)
+
+let Collapse2  =React.forwardRef( (props,ref) =>{
+
+  const profButtonCLick =(event,ref) => {
+    // console.log(event.target.name)
+    props.setCurrentPage(event.target.name);
+window.scrollTo({
+  top:100
+})
+
+console.log(window.top)
+      // console.log(event.target.id)
+     
 
   }
-
-
+ 
+console.log(window.top)
     const [isOpen, setIsOpen] = useState(false);
     return<div className='collapsible'>
         <div className='service-card'>
@@ -28,12 +37,12 @@ function Collapse2(props){
       
       <div className='profBtnContainer'>
 
-<Button name = "PROFESSIONALS" onClick={(handleNavclick)} href="#" id='profBtn'>BROWSE OUR PROFESSIONALS</Button>
+<Button name = "PROFESSIONALS" onClick={profButtonCLick} href="" id='profBtn'>BROWSE OUR PROFESSIONALS</Button>
   </div>
       </CardBody>}
       </Card>
       </div>
     </div>
-}
+})
 
-export default Collapse2
+export default Collapse2 

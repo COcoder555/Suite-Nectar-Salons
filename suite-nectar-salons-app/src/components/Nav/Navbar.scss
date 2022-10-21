@@ -80,6 +80,7 @@
     font-size: small;
     display: block;
     margin: 1vw;
+    color:white;
 }
 
 .S:visited {
@@ -87,11 +88,13 @@
 }
 
 .S:hover {
-
+    color: white;
     text-decoration: underline;
 }
 
-
+.S:focus{
+    color:white;
+}
 .container{
 display: grid;
 grid-auto-flow: column;

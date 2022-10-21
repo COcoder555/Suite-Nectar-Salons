@@ -71,9 +71,11 @@
 
 .FL {
 
+
     font-size: small;
     // margin-top: 30px; 
     margin: 1vw;
+    color:white;
 }
 
 .FL:visited {
@@ -81,9 +83,12 @@
 }
 
 .FL:hover {
+    color: white;
     text-decoration: underline;
 }
-
+.FL:focus{
+    color:white;
+}
 .footerPhone:hover {
     text-decoration: underline;
 }
