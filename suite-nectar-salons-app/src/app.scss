@@ -1,14 +1,21 @@
 *{
     margin:0;
     padding:0;
-    box-sizing: border-box;
+    // overflow-x: hidden;
+    // box-sizing: border-box;
 }
 // .row{
 //     width: vw;
 // }
 .body{
+
 margin: 0;
 padding:0;
+
+}
+
+body{
+    overflow-x: hidden;
 }
 .container{
     width: fit-content;
@@ -28,11 +35,11 @@ nav{
 }
 #footer{
   
-    width: 100vw;
+    width: 100%;
 }
 
 
 .footerContainer{
-    width: 100vw;
+    width: 100%;
 }
 

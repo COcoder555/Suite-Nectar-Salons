@@ -1,4 +1,9 @@
 
+*{
+    padding: 0;
+    margin: 0;
+}
+
 #landing{
     // height: 1600px;
     background-color:rgb(246, 232, 232);
@@ -18,7 +23,7 @@ text-align: right;
 // }
 .landing-background{
     background-image: url('../../../public/assets/salon2img.png');
-    width: 100vw;
+    width: 100%;
    background-repeat: no-repeat;
     background-size: 100%;
 
@@ -45,7 +50,7 @@ text-align: right;
     color:black;
   
     transition: transform 1s;
-    overflow: hidden;
+    overflow-x: hidden;
     animation-name: slidein; 
     animation-duration: 4s;
     animation-fill-mode: forwards;

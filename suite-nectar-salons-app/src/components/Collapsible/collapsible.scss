@@ -12,6 +12,14 @@
 
 }
 
+.collapseDescription{
+font-size: 138%;
+  text-align: center;
+  color:rgb(108, 39, 30);
+  text-decoration: solid;
+
+}
+
 i{
 height: fit-content;
 }
@@ -49,7 +57,7 @@ align-items: center;
   }
 
 .titleUnderline{
-margin: 0px 250px 20px;
+margin: 0px 100px 0px 100px;
 
 border-bottom: 1px solid black;
 }
@@ -66,17 +74,28 @@ h3:hover{
 
 color:rgb(138, 23, 40);
 }
-
+// DO THIS CENTERING OF BUTTON BETTER 
 .profBtnContainer{
-margin: 2px 525px 2px;
+  margin: 1%;
+
+justify-content: center;
+
 }
 
 .profBtn{
-background-color:rgb(138, 23, 40);
+  margin:auto;
+  display: flex;
+  font-weight:900;
+  background-color: black;
+  color:white;
+height: 5vh;
+width:38%;
+font-size: 3vh;
+font-family: "Thasadith";
+justify-content: center;
 }
-  // button{
- 
-  //   width: 8vw;
-  //   border: none;
-  //   background:none;
-  // }
+.profBtn:hover{
+  background-color:white;
+  color:black;
+
+}

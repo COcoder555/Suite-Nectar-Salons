@@ -3,7 +3,7 @@ import './about.scss'
 import { DropdownItem } from 'reactstrap'
 import { DropdownToggle } from 'reactstrap'
 import { DropdownMenu } from 'reactstrap'
-import { NavLink } from 'reactstrap'
+// import { NavLink } from 'reactstrap'
 import Navhandler from '../Nav/Navbar'
 
 function About() {
@@ -16,15 +16,14 @@ function About() {
           <div className = 'col-12'>
         <div className='philoTitle'>
 
-          <h1>PHILOSPHY</h1>
+          <h1 className='philo'>PHILOSPHY</h1>
 
-
-          <p className='philoText'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore<br></br>
-            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut<br></br>
-            aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br></br>
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          </p>
           </div>
+          <p className='philoText'>Empowering Independent Beauty Professionals to elevate their careers and build their own businesses.  
+
+We are committed to offering affordable luxury suites, along with all the tools and support you need to experience salon ownership for yourself.  
+          </p>
+       
         </div>
         </div>
         <div className='row'>

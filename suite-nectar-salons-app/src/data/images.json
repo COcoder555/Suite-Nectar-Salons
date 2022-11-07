@@ -1,36 +1,252 @@
 {
-    "data":[
+    "data": [
+        {
+           
+        },
+        {
+            "name": "Anh Tran",
+            "salonLocation": "Matthews",
+            "link1": "https://www.google.com/",
+            "link2": "httpa://wwww.linkedin.com/",
+            "badgeLink1": "http://www.yahoo.com/",
+            "bioText": "THIS IS THE BIO OF PROF2 THIS IS JUST A REALLY GREAT PLACE TO DISPLAY INFROMATION ABOUT WHO I AM",
+            "img": "../../public/Images/NailTech/prof2Images/prof2.jpg",
+            "email": "",
+            "gallery":"../../public/Images/NailTech/prof2Images/prof2WorkSpace.jpg "
+    
+        },
+        {
+            "name": "Tanita",
+            "salonLocation": "Matthews",
+            "bioText": "Enter Shear Bliss ..... Where Owner/ Operator/ Hair Innovator Tanita offers integrity as the standard, not an option. With over 20 years in the beauty industry, Tanita has proven to be relevant and reliable. Being the creative re-inventor of your image is top priority. Flawless hair extensions, edgy cuts, customized coloring and use of the most up to date hair products is always the rule at Shear Bliss. All things beautiful begin at Shear Bliss, where beauty is bliss, come experience. Headshot:",
+            "badgeLink1": "http://www.yahoo.com/",
+            "link2": "httpa://wwww.linkedin.com/",
+            "link1": "https://www.google.com/",
+            "email": ""
+        },
+        {
+            "name": "Jorge Quintana ",
+            "salonLocation": "Matthews",
+            "bioText": "My name is Jorge Quintana and I’ve been tattooing for about 9 years. I’m originally from Miami, FL. I spent most of my career in Miami, learning my craft and developing my technique. I started going to tattoo conventions in 2018 throughout the east coast, hopping from one city to another. This allowed me to grow and learn even more. I first came to Charlotte for the tattoo convention in October 2018. It was my first time in North Carolina and I fell in love with the city and the state immediately. I moved here in 2020 during the pandemic and opened my own space in 2022. I love tattooing and I specialize in various styles, mostly black and grey and color realism. I do enjoy neotraditional and Japanese tattoos as well. I’m also a painter. I love to draw and paint when I’m not tattooing. Another hobby and passion of mine is travel. I often tattoo in other states and cities as well. If you wish to get a tattoo, best thing to do is to visit my website and fill out an inquiry form.",
+            "instaBadge": "https://www.instagram.com/jorgewolfquintana",
+            "link2": "httpa://wwww.linkedin.com/",
+            "link1": "https://www.google.com/",
+            "email": "mailto:jorge@strangeandunusualtattoo.com"
+        },
+        {
+            "name": "Danielle Grady",
+            "salonLocation": "Matthews",
+            "bioText": "Dash || Men's Grooming is a brand with unparalleled expertise in men's hair and grooming services. I offer customized haircuts according to face shape, lifestyle, and your personal tastes. Waxing, beard trims, beard line-ups, straight razor shaves and coloring are also services that I provide. ",
+            "instaBadge": "https://www.instagram.com/dashmensgrooming",
+            "link2": "httpa://wwww.linkedin.com/",
+            "link1": "https://www.google.com/",
+            "email": "mailto:jorge@strangeandunusualtattoo.com"
+        },
+        {
+            "name": "Melania Colon",
+            "salonLocation": "Matthews",
+            "bioText": "Licensed Cosmetologist from Brooklyn, NY who has been doing hair all of her life and decided to make her dream into her profession. Styling hair and also working on the quality of the hair has always been my main goal. Helping my client achieve their desired look while also teaching them techniques to take home for hair care. Come receive the luxury experience at The Brooklyn Basement.",
+            "instaBadge": "https://www.instagram.com/dashmensgrooming",
+            "link2": "httpa://wwww.linkedin.com/",
+            "link1": "https://www.google.com/",
+            "email": "mailto:jorge@strangeandunusualtattoo.com"
+        }
+    ],
+    "data2": {
+        "cosmo": [
+            { 
+            "name": "Danielle Grady",
+            "Buisness":"",
+            "salonLocation": "Matthews",
+            "bioText": "Dash || Men's Grooming is a brand with unparalleled expertise in men's hair and grooming services. I offer customized haircuts according to face shape, lifestyle, and your personal tastes. Waxing, beard trims, beard line-ups, straight razor shaves and coloring are also services that I provide. ",
+            "email": "",
+            "instagram": "https://www.instagram.com/dashmensgrooming",
+            "facebook":"",
+            "twitter":"",
+            "link1": "https://www.google.com/", 
+            "link2": "httpa://wwww.linkedin.com/", 
+            "profileImg": "/Images/Cosmo/prof5Images/prof5.jpg",
+            "gallery": [
+                " ",
+                " ",
+                " ",
+                " "
+            ]
+            },
+            {
+            "name": "Tanita",
+            "Buisness":"Shear Bliss Salon",
+            "salonLocation": "Matthews",
+            "bioText": "Enter Shear Bliss ..... Where Owner/ Operator/ Hair Innovator Tanita offers integrity as the standard, not an option. With over 20 years in the beauty industry, Tanita has proven to be relevant and reliable. Being the creative re-inventor of your image is top priority. Flawless hair extensions, edgy cuts, customized coloring and use of the most up to date hair products is always the rule at Shear Bliss. All things beautiful begin at Shear Bliss, where beauty is bliss, come experience. Headshot:",
+            "email": " ",
+            "instagram": " ",
+            "facebook":" ",
+            "twitter":" ",
+            "link1": "", 
+            "link2": " ",
+            "link1Name": "",
+            "link2Name": "", 
+            "profileImg": "/Images/Cosmo/prof3Images/prof3.jpg",
+            "gallery": [
+                "/Images/Cosmo/prof3Images/prof3WorkSpace.jpg",
+                "/Images/Cosmo/prof3Images/prof3Client1.jpg",
+                "/Images/Cosmo/prof3Images/prof3Client2.jpg",
+                "/Images/Cosmo/prof3Images/prof3Client3.jpg",
+                "/Images/Cosmo/prof3Images/prof3Client4.jpg",
+                "/Images/Cosmo/prof3Images/prof3Client5.jpg",
+                "/Images/Cosmo/prof3Images/prof3Client6.jpg",
+                "/Images/Cosmo/prof3Images/prof3Client7.jpg"
+            ]
+            }
+        ],
+        "esthetician": [
+            {
+                "name": " ",
+                "Buisness": "",
+                "salonLocation": " ",
+                "bioText": " ",
+                "email": " ",
+                "instagram": " ",
+                "facebook":" ",
+                "twitter":" ",
+                "link1": "", 
+                "link2": " ",
+                "link1Name": "",
+                "link2Name": "", 
+                "profileImg": " ",
+                "gallery": [
+                    " ",
+                    " ",
+                    " ",
+                    " "
+                ]
+        },
+        {
+            "name": " ",
+            "salonLocation": " ",
+            "Buisness":"",
+            "bioText": " ",
+            "email": " ",
+            "instagram": " ",
+            "facebook":" ",
+            "twitter":" ",
+            "link1": "", 
+            "link2": " ",
+            "link1Name": "",
+            "link2Name": "", 
+            "profileImg": " ",
+            "gallery": [
+                " ",
+                " ",
+                " ",
+                " "
+            ]
+        }
+    ],
+    "nailTech":[
+         {
+            "name": "Anh Tran",
+            "salonLocation": "Matthews",
+            "Buisness": "",
+            "bioText": "The services, I offer are: dipping powder (sns), gel polish, pedicure.",
+            "email": "ttloananh1996@gmail.com",
+            "instagram": "https://www.instagram.com/anhhtrann96",
+            "facebook":" ",
+            "twitter":" ",
+            "link1": "https://www.vagaro.com/peacenails", 
+            "link2": " ",
+            "link1Name": "Personal Professional Website",
+            "link2Name": "", 
+            "profileImg": " ",
+            "gallery": [
+                " ",
+                " ",
+                " ",
+                " "
+            ]
+    },
+     {
+        "name": " ",
+        "salonLocation": " ",
+        "Buisness":"",
+        "bioText": " ",
+        "email": " ",
+        "instagram": " ",
+        "facebook":" ",
+        "twitter":" ",
+        "link1": "", 
+        "link2": " ",
+        "link1Name": "",
+        "link2Name": "", 
+        "profileImg": " ",
+        "gallery": [
+            " ",
+            " ",
+            " ",
+            " "
+        ]
+     
+    }],
+    "tattoo":[ 
+        {
+            "name": "Jorge Quintana",
+            "salonLocation": "Matthews",
+            "Buisness":"",
+            "bioText": "My name is Jorge Quintana and I’ve been tattooing for about 9 years. I’m originally from Miami, FL. I spent most of my career in Miami, learning my craft and developing my technique. I started going to tattoo conventions in 2018 throughout the east coast, hopping from one city to another. This allowed me to grow and learn even more. I first came to Charlotte for the tattoo convention in October 2018. It was my first time in North Carolina and I fell in love with the city and the state immediately. I moved here in 2020 during the pandemic and opened my own space in 2022. I love tattooing and I specialize in various styles, mostly black and grey and color realism. I do enjoy neotraditional and Japanese tattoos as well. I’m also a painter. I love to draw and paint when I’m not tattooing. Another hobby and passion of mine is travel. I often tattoo in other states and cities as well. If you wish to get a tattoo, best thing to do is to visit my website and fill out an inquiry form.",
+            "email": "mailto:jorge@strangeandunusualtattoo.com",
+            "instagram": "https://www.instagram.com/jorgewolfquintana",
+            "facebook":" ",
+            "twitter":" ",
+            "link1": "", 
+            "link2": " ",
+            "link1Name": "",
+            "link2Name": "", 
+            "profileImg": " ",
+            "gallery": [
+                " ",
+                " ",
+                " ",
+                " "
+            ]
+    }],
+    "additionalServices":[ 
+        { 
+            "name": "Monique Guinn ",
+        "salonLocation": "Matthews",
+        "Buisness":"",
+        "bioText": "My Name is Monique Guinn and I love helping people do better for themselves and for their families! I am the Master Teeth Whitening Technician and Instructor. The Teeth Whitening School will be offering our Introduction to Teeth Whitening course right here in the salon suite. We want to invite anybody between the ages of 17 and up who would like to start a career as a Certified Teeth Whitening Technician. We offer a complete system to help people get up and going from start to finish!  We also offer an affordable 20–40-minute teeth whitening services to the public! You would need to book an appointment on our website in order to receive this service! We do not accept walk-ins.  Things the school provides for students: We will provide hands-on whitening kits, Laser LED lights, whitening demonstrations, dental mannequins, Introduction to Teeth Whitening Manuals, awesome customer service, and so much more. You will be able to ask questions and learn from other students.  ",
+        "email": "",
+        "link2": "httpa://wwww.linkedin.com/",
+        "link1": "https://www.teethwhiteningschool.com",
+        "link1Name": "THE TEETH WHITENING SCHOOL",
+        "link2Name": "Phone",
+        "badgeLink1": "http://www.google.com",
+        "img": "../Images/prof1.jpg",
+        "gallery": [
+            "../../public/images/prof1.jpg",
+            "path2"
+        ]
+    },
     { 
-        "name":"Monique Guinn ",
+        "name": "Monique Guinn",
         "salonLocation": "Matthews",
         "bioText": "My Name is Monique Guinn and I love helping people do better for themselves and for their families! I am the Master Teeth Whitening Technician and Instructor. The Teeth Whitening School will be offering our Introduction to Teeth Whitening course right here in the salon suite. We want to invite anybody between the ages of 17 and up who would like to start a career as a Certified Teeth Whitening Technician. We offer a complete system to help people get up and going from start to finish!  We also offer an affordable 20–40-minute teeth whitening services to the public! You would need to book an appointment on our website in order to receive this service! We do not accept walk-ins.  Things the school provides for students: We will provide hands-on whitening kits, Laser LED lights, whitening demonstrations, dental mannequins, Introduction to Teeth Whitening Manuals, awesome customer service, and so much more. You will be able to ask questions and learn from other students.  ",
-        "link2" :"httpa://wwww.linkedin.com/",
-        "link1": "https://www.teethwhiteningschool.com",
-        "link1Name":"THE TEETH WHITENING SCHOOL",
-        "link2Name":"Phone",
-        "badgeLink1": "http://www.google.com",
-        "img" : "../Images/prof1.jpg"
-        
-    },
-    {
-"name":"Josephine",
-"salonLocation": "Matthews",
-"link1":"https://www.google.com/",
-"link2":"httpa://wwww.linkedin.com/",
-"badgeLink1":"http://www.yahoo.com/",
-"bioText": "THIS IS THE BIO OF PROF2 THIS IS JUST A REALLY GREAT PLACE TO DISPLAY INFROMATION ABOUT WHO I AM",
-"img": "../Images/prof1.jpg"
-    },
-    {
-"name":"Tanita",
-"salonLocation": "Matthews",
- "bioText":"Enter Shear Bliss ..... Where Owner/ Operator/ Hair Innovator Tanita offers integrity as the standard, not an option. With over 20 years in the beauty industry, Tanita has proven to be relevant and reliable. Being the creative re-inventor of your image is top priority. Flawless hair extensions, edgy cuts, customized coloring and use of the most up to date hair products is always the rule at Shear Bliss. All things beautiful begin at Shear Bliss, where beauty is bliss, come experience. Headshot:",
-"badgeLink1":"http://www.yahoo.com/",
-"link2":"httpa://wwww.linkedin.com/",
-"link1": "https://www.google.com/"
+        "email": "",
+        "instagram": "",
+        "facebook":"",
+        "twitter":"",
+        "link1": "https://www.teethwhiteningschool.com", 
+        "link2": "", 
+        "link1Name": "",
+        "link2Name": "",
+        "profileImg": "",
+        "gallery": [
+            "",
+            "",
+            "",
+            ""
+        ]
+        }
+    ]
     }
-
-
-    
-]
 }

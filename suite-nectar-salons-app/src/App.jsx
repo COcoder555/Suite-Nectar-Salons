@@ -1,6 +1,3 @@
-
-
-
 import React, { useState } from "react";
 import Landing from "./components/Landing/landing";
 import Navhandler from './components/Nav/Navbar';
@@ -33,20 +30,19 @@ function App(clickedImg,linkIdx,currentIdx,setClickedImg,profImages,handleClick,
 
   return (
 
-
-    <div className="app">
-      <div className="row">
+   
+      <div >
       {/* <Modal1 currentPage = {currentPage} setCurrentPage ={setCurrentPage} clickedImg={clickedImg}  linkIdx ={linkIdx} handleClick= {handleClick}  setClickedImg = {setClickedImg} currentIdx = {currentIdx}   profImages = {profImages}/>:''} */}
 
     
        
-            <div className="App">    
+
 
               <nav >
-                <Navhandler className = "col-12" currentPage={currentPage} setCurrentPage={setCurrentPage} />
+                <Navhandler  currentPage={currentPage} setCurrentPage={setCurrentPage} />
               </nav>
 
-
+        
 
               {currentPage  === '' ? <Landing /> : ''}
               {currentPage === 'SERVICES' ? <Services currentPage={currentPage} setCurrentPage={setCurrentPage}  /> : ''}
@@ -66,9 +62,8 @@ function App(clickedImg,linkIdx,currentIdx,setClickedImg,profImages,handleClick,
               
             </div>
           </div>
-       
-      </div>
-    </div>
+
+
   );
 }
 

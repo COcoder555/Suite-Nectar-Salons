@@ -1,7 +1,7 @@
 
 .professional-background{
     background-image: url('../../../public/assets/work3.png');
-   height:80vh;
+   height:75vh;
    background-size: 100%;
 background-repeat: no-repeat;
 margin-bottom: 0%;
@@ -11,12 +11,23 @@ width: 100vw;
 
 
 .professionalTitle{
+margin-top:0;
+padding-top:0;
 padding-bottom: 2%;
 justify-content: center;
 background-color: #3e3e3f;
 height: fit-content;
 color:black;
 width: 100vw;
+font-weight:500;
+ 
+font-family:'Amatic SC';
+font-size: 10vh;
+
+text-align: center;
+}
+.profTitle{
+font-size: 10vh;
 }
 
 
@@ -24,22 +35,36 @@ width: 100vw;
 background-color:#3e3e3f;
 
 }
-
+.sectionTitle{
+    
+    color:white;
+text-align: center;
+width: 100%;
+max-width: 100vw;
+}
 .galleryImg{
     height: fit-content;
 }
 
 .par{
+    text-align: center;
     justify-content: center;
     align-content: center;
     // display: grid;
     // grid-template-columns: repeat(3,300px);
-    display:flex;
-    height: 45vh;
+    display:grid;
+    height: 60vh;
     width: 45vh;
     margin: 20px;
     background-color: white;
     // background-image: url('../../../public/assets/work3.png');
+}
+
+.par:hover{
+    border: 10px double rgb(138, 23, 40);
+    -webkit-box-sizing: border-box !important; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box !important; /* Firefox, other Gecko */
+    box-sizing: border-box !important; /* Opera/IE 8+ */
 }
 
 
@@ -55,6 +80,8 @@ background-color:#3e3e3f;
    padding-top:1%;
     width: 100vw;
 }
+
+
 
 
 .Modal1{
@@ -117,18 +144,19 @@ a{
 //  // color:yellow
 //  }
 
-#profImg{
-  
+.profImg{
+    height: 100%;
+    width: auto;
    -webkit-filter: grayscale(100%);
+
 }
+
+
 
 #profImg:hover{
     // -webkit-filter: grayscale(0%);
     
-    border-style:ridge;
     
-    border-color:rgb(138, 23, 40);
-    border-width: 10px;
 }
 
 

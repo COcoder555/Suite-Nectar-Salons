@@ -10,20 +10,30 @@
 }
 .about-background{
     background-image: url('../../../public/assets/work3.png');
-    height:119vh;
+    height:75vh;
     background-size: 100%;
  background-repeat: no-repeat;
 }
 
 
 .philoTitle{
-margin-top: 0;
+
 background-color: rgb(199, 196, 196);
 height:fit-content;
 margin-right:0%;
 padding: 4%;
 width: 100vw;
 color:white;
+font-weight: 500;
+
+font-family: 'Amatic SC';
+font-size: 20vh;
+
+text-align: center;
+}
+.philo{
+    margin-top: 0;
+    font-size: 10vh;
 }
 
 
@@ -34,11 +44,10 @@ color:white;
 
 
 .philoText{
-
+    background-color: rgb(199, 196, 196);
     text-align: center;
     color:black;
-    margin-bottom: 2%;
-    
+
 }
 
 
@@ -59,6 +68,12 @@ background-color:pink;
 .partnerBar{
 
 
+    font-weight: 500;
+    
+    font-family: 'Amatic SC';
+    font-size: 10vh;
+    
+    text-align: center;
 
     height: 60vh;
     width: 100vw;

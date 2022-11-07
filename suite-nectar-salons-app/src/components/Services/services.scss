@@ -1,75 +1,83 @@
-.serv-background1{
-    position:sticky;
+.serv-background1 {
+    position: sticky;
     background-image: url('../../../public/assets/bg2.jpg');
 
-background-repeat: no-repeat;
- background-size: 100%;
-height:80vh;
-width: 100vw;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 87vh;
+    width: 100vw;
 
 }
 
-.wrapper{
+.wrapper {
     width: 100%;
-    background-color:white;
+    background-color: white;
     height: fit-content;
     margin-top: 0;
-    padding-top:0;
+    padding-top: 0;
 }
-.serv-bg1-container{
-    margin:0;
-    height:fit-content;
+
+.serv-bg1-container {
+    margin: 0;
+    height: fit-content;
 }
-.service-background-img{
-height: fit-content;
+
+.service-background-img {
+    height: fit-content;
     margin-top: 0;
     padding-top: 0;
     background-image: url('../../../public/assets/bg1.png');
-    
-}
-h1{
-    font-weight:500;
- 
-    font-family:'Bad Script';
-    font-size: 10vh;
-padding-top: 4%;  
-text-align: center;
+
 }
 
-h3{
+h1 {}
 
-    font-family:'Thasadith' ;
-    padding-top: 4%;  
+.servicesTitle {
+    font-weight: 500;
+
+    font-family: 'Amatic SC';
+    font-size: 20vh;
+
     text-align: center;
-    }
-
-
-.service-card{
-padding: 2%;
 }
 
-.container2{
-    margin-top:0;
+.servTitle{
+    font-size: 10vh;
+}
+
+h3 {
+
+    font-family: 'Thasadith';
+    padding-top: 4%;
+    text-align: center;
+}
+
+
+.service-card {
+    padding: 2%;
+}
+
+.container2 {
+    margin-top: 0;
     margin-right: 0;
-    padding-top:0;
-height: fit-content;
+    padding-top: 0;
+    height: fit-content;
 
 }
 
 
 
-.tryButton{
+.tryButton {
     height: fit-content;
     background-color: black;
 }
 
-@media(max-width:1050px){
-    .wrapper{
-       
+@media(max-width:1050px) {
+    .wrapper {}
+
+    .serv-background1 {
+        height: 40vh;
     }
-  .serv-background1{
-    height: 40vh;
-  }
 
 
 

@@ -3,7 +3,16 @@
 .row{
     z-index: 3;
     display: flex;
+    // width: 100%;
 }
+
+#fullWidth{
+    width: 100%;
+}
+
+// #fullWidth1{
+//     width: 100%;
+// }
 
 .container{
     height: fit-content
@@ -79,6 +88,8 @@
     font-family: "Thasadith";
     font-size: small;
     display: block;
+
+    // Why not margin here?
     margin: 1vw;
     color:white;
 }
