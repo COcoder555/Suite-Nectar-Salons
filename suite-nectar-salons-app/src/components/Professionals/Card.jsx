@@ -6,10 +6,10 @@ import React from 'react'
 const Card = (props) => {
     console.log(props.data)
     function handleClick(){
-        props.setClickedImg(true)
-        props.setClickedProfImage1(props.data.profileImg)
         props.setLinkIdx(props.data)
-        props.setClickedProfImage2(props.data.gallery[0])
+        props.setClickedImg(props.data.profileImg)
+        props.setClickedProfImages(props.data.gallery)
+    
     }
 
     return (

@@ -1,7 +1,6 @@
 import React from 'react';
 import { UncontrolledCarousel } from 'reactstrap';
-
-
+import './carousel1.scss'
 export default function Caro() {
   
   const items = [
@@ -23,12 +22,12 @@ export default function Caro() {
     }
   ];
   
-  const Example = () => <UncontrolledCarousel items={items} />;
+  const Example = () => <UncontrolledCarousel className ="carausel" items={items} />;
 
   return (
  <div className='row'>
   <div className='col-12'>
-    <div className='carausel'><Example/></div>
+    <div className='carausel1'><Example/></div>
     </div>
     </div>
   )

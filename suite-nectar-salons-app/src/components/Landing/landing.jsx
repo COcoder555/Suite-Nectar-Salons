@@ -48,7 +48,7 @@ function Landing() {
             <div className="landing-container">
                 <div className='row'>
                     <div className='col-12'>
-                    {/* <Caro  id="Caro"></Caro>  */}
+                    <Caro  id="Caro"></Caro> 
                     </div>
                  
                  </div>
@@ -65,10 +65,9 @@ function Landing() {
                         <div className='col-6' >
 
                             <p ref={myRef}><span className={`animateText ${landingTextVisible ? 'text4' : ''}`} >
-                                Suite Nectar Salons offers an effortless approach to creating your own salon suite business. As your trusted salon partner, we’re here to support you every step of the way.
+                                Suite Nectar Salons offers an effortless approach to creating your own salon suite business. As your trusted salon partner, we’re here to support you every step of the way.<br></br>
                                 We focus on creating a thriving community of creative talent, you focus on creating a business that is uniquely you.  <br></br>
-                                We focus on creating a thriving community of creative talent, and are committed to offering all the tools you need to succeed. <br></br>
-                                You focus on creating a business that is uniquely you!<br></br>
+                               <br></br>
                                 <h1 id='Join'>Join us and the suite life today!</h1>
 
 

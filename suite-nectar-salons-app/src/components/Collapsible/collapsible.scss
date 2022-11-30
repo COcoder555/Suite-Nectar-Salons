@@ -13,6 +13,8 @@
 }
 
 .collapseDescription{
+  margin-top:2%;
+  margin-bottom:2%;
 font-size: 138%;
   text-align: center;
   color:rgb(108, 39, 30);
@@ -36,15 +38,16 @@ height: fit-content;
   padding: 2%;
     text-align: end;
   }
-  .btn{
-  outline: none;
-    margin: .5%;
-    padding: 0;
-      background-color:  rgb(199, 196, 196) ;
-      border-radius: 0%;
+  // .btn{
+  //   text-align: center;
+  // outline: none;
+  //   margin: 1%;
+  //   padding: 0;
+  //     background-color:  rgb(199, 196, 196) ;
+  //     border-radius: 0%;
     
       
-  }
+  // }
 
 
   .arrow{
@@ -83,15 +86,17 @@ justify-content: center;
 }
 
 .profBtn{
+vertical-align: middle;
+text-align: center;
   margin:auto;
   display: flex;
-  font-weight:900;
+  font-weight:1000;
   background-color: black;
   color:white;
-height: 5vh;
-width:38%;
-font-size: 3vh;
-font-family: "Thasadith";
+height: 9vh;
+width:36%;
+font-size: 4vh;
+font-family: "Poiret One";
 justify-content: center;
 }
 .profBtn:hover{

@@ -36,6 +36,7 @@
         {
             "name": "Danielle Grady",
             "salonLocation": "Matthews",
+            "business":"DASH MENS GROOMING",
             "bioText": "Dash || Men's Grooming is a brand with unparalleled expertise in men's hair and grooming services. I offer customized haircuts according to face shape, lifestyle, and your personal tastes. Waxing, beard trims, beard line-ups, straight razor shaves and coloring are also services that I provide. ",
             "instaBadge": "https://www.instagram.com/dashmensgrooming",
             "link2": "httpa://wwww.linkedin.com/",
@@ -56,8 +57,8 @@
         "cosmo": [
             { 
             "name": "Danielle Grady",
-            "Buisness":"",
-            "salonLocation": "Matthews",
+            "business":"DASH MENS GROOMING",
+            "salonLocation":"Southend",
             "bioText": "Dash || Men's Grooming is a brand with unparalleled expertise in men's hair and grooming services. I offer customized haircuts according to face shape, lifestyle, and your personal tastes. Waxing, beard trims, beard line-ups, straight razor shaves and coloring are also services that I provide. ",
             "email": "",
             "instagram": "https://www.instagram.com/dashmensgrooming",
@@ -74,10 +75,10 @@
             ]
             },
             {
-            "name": "Tanita",
-            "Buisness":"Shear Bliss Salon",
-            "salonLocation": "Matthews",
-            "bioText": "Enter Shear Bliss ..... Where Owner/ Operator/ Hair Innovator Tanita offers integrity as the standard, not an option. With over 20 years in the beauty industry, Tanita has proven to be relevant and reliable. Being the creative re-inventor of your image is top priority. Flawless hair extensions, edgy cuts, customized coloring and use of the most up to date hair products is always the rule at Shear Bliss. All things beautiful begin at Shear Bliss, where beauty is bliss, come experience. Headshot:",
+            "name": "Tanita Rance",
+            "business":"Shear Bliss Salon",
+            "salonLocation": "Southend",
+            "bioText": "Enter Shear Bliss ..... Where Owner/ Operator/ Hair Innovator Tanita offers integrity as the standard, not an option. With over 20 years in the beauty industry, Tanita has proven to be relevant and reliable. Being the creative re-inventor of your image is top priority. Flawless hair extensions, edgy cuts, customized coloring and use of the most up to date hair products is always the rule at Shear Bliss. All things beautiful begin at Shear Bliss, where beauty is bliss, come experience.",
             "email": " ",
             "instagram": " ",
             "facebook":" ",
@@ -97,7 +98,71 @@
                 "/Images/Cosmo/prof3Images/prof3Client6.jpg",
                 "/Images/Cosmo/prof3Images/prof3Client7.jpg"
             ]
-            }
+            }, 
+            {
+                "name": "Melania Colon",
+                "business": " The Brooklyn Basement",
+                "salonLocation": "Southend",
+                "bioText": "Licensed Cosmetologist from Brooklyn, NY who has been doing hair all of her life and decided to make her dream into her profession. Styling hair and also working on the quality of the hair has always been my main goal. Helping my client achieve their desired look while also teaching them techniques to take home for hair care. Come receive the luxury experience at The Brooklyn Basement.",
+                "email": " ",
+                "instagram": " ",
+                "facebook":" ",
+                "twitter":" ",
+                "link1": "", 
+                "link2": " ",
+                "link1Name": "",
+                "link2Name": "", 
+                "profileImg": "/Images/Cosmo/prof6Images/prof6.jpg",
+                "gallery": [
+                    "/Images/Cosmo/prof6Images/prof6Client1.jpg",
+                    "/Images/Cosmo/prof6Images/prof6Client2.jpg",
+                    "/Images/Cosmo/prof6Images/prof6Client3.jpg ",
+                    "/Images/Cosmo/prof6Images/prof6Client4.jpg"
+                ]
+        }, 
+        {
+            "name": "Inna Chihoial",
+            "Buisness": "",
+            "salonLocation": "Matthews",
+            "bioText": " ",
+            "email": " ",
+            "instagram": " ",
+            "facebook":" ",
+            "twitter":" ",
+            "link1": "", 
+            "link2": " ",
+            "link1Name": "",
+            "link2Name": "", 
+            "profileImg": "/Images/Cosmo/prof7Images/prof7.jpg",
+            "gallery": [
+                " ",
+                " ",
+                " ",
+                " "
+            ]
+    },
+    {
+        "name": " ",
+        "Buisness": "",
+        "salonLocation": " ",
+        "bioText": " ",
+        "email": " ",
+        "instagram": " ",
+        "facebook":" ",
+        "twitter":" ",
+        "link1": "", 
+        "link2": " ",
+        "link1Name": "",
+        "link2Name": "", 
+        "profileImg": "",
+        "gallery": [
+            " ",
+            " ",
+            " ",
+            " "
+        ]
+}
+        
         ],
         "esthetician": [
             {
@@ -157,7 +222,7 @@
             "link2": " ",
             "link1Name": "Personal Professional Website",
             "link2Name": "", 
-            "profileImg": " ",
+            "profileImg": "/Images/NailTech/prof2Images/prof2.jpg ",
             "gallery": [
                 " ",
                 " ",
@@ -180,10 +245,9 @@
         "link2Name": "", 
         "profileImg": " ",
         "gallery": [
-            " ",
-            " ",
-            " ",
-            " "
+            "/Images/Cosmo/prof6Images/prof6Client1.jpg",
+            "/Images/Cosmo/prof6Images/prof6Client2.jpg"
+      
         ]
      
     }],
@@ -201,9 +265,9 @@
             "link2": " ",
             "link1Name": "",
             "link2Name": "", 
-            "profileImg": " ",
+            "profileImg": "/Images/TattooNPiercing/prof4Images/prof4.jpg",
             "gallery": [
-                " ",
+                "/Images/TattooNPiercing/prof4Images/prof4WorkSpace.jpg ",
                 " ",
                 " ",
                 " "
@@ -221,32 +285,34 @@
         "link1Name": "THE TEETH WHITENING SCHOOL",
         "link2Name": "Phone",
         "badgeLink1": "http://www.google.com",
-        "img": "../Images/prof1.jpg",
+        "profileImg": "/Images/AddServices/prof1Images/prof1.jpg",
         "gallery": [
-            "../../public/images/prof1.jpg",
-            "path2"
+            "/Images/AddServices/prof1Images/prof1Client1.jpg",
+            "/Images/AddServices/prof1Images/prof1Client2.jpg", 
+            "/Images/AddServices/prof1Images/prof1WorkSpace.jpg"
         ]
     },
-    { 
-        "name": "Monique Guinn",
-        "salonLocation": "Matthews",
-        "bioText": "My Name is Monique Guinn and I love helping people do better for themselves and for their families! I am the Master Teeth Whitening Technician and Instructor. The Teeth Whitening School will be offering our Introduction to Teeth Whitening course right here in the salon suite. We want to invite anybody between the ages of 17 and up who would like to start a career as a Certified Teeth Whitening Technician. We offer a complete system to help people get up and going from start to finish!  We also offer an affordable 20–40-minute teeth whitening services to the public! You would need to book an appointment on our website in order to receive this service! We do not accept walk-ins.  Things the school provides for students: We will provide hands-on whitening kits, Laser LED lights, whitening demonstrations, dental mannequins, Introduction to Teeth Whitening Manuals, awesome customer service, and so much more. You will be able to ask questions and learn from other students.  ",
-        "email": "",
-        "instagram": "",
-        "facebook":"",
-        "twitter":"",
-        "link1": "https://www.teethwhiteningschool.com", 
-        "link2": "", 
+    {
+        "name": " ",
+        "salonLocation": " ",
+        "Buisness":"",
+        "bioText": " ",
+        "email": " ",
+        "instagram": " ",
+        "facebook":" ",
+        "twitter":" ",
+        "link1": "", 
+        "link2": " ",
         "link1Name": "",
-        "link2Name": "",
-        "profileImg": "",
+        "link2Name": "", 
+        "profileImg": " ",
         "gallery": [
-            "",
-            "",
-            "",
-            ""
+            " ",
+            " ",
+            " ",
+            " "
         ]
-        }
+    }
     ]
     }
 }

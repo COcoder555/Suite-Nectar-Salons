@@ -27,7 +27,7 @@ let Services = (props, scrollToSection) => {
       title: 'ESTHETICIANS MEDSPA',
       serviceDescription: 'Eyelash extensions, facials ...???',
       id: 'estheticians'
-    }, 
+    },
     {
       title: 'NAIL TECHNICIANS',
       serviceDescription: 'Our manicure and pedicurists offer a personalized experience to fit your individual needs! Featuring all styles from acrylics, to gel, to dip powder. ',
@@ -43,7 +43,7 @@ let Services = (props, scrollToSection) => {
       serviceDescription: 'Explore the suites for other various artists and services!',
       id: 'additional'
     },
-  
+
 
 
   ]
@@ -73,15 +73,15 @@ let Services = (props, scrollToSection) => {
 
             <div className='container2'>
               <div id="serv">
-              <div className='servicesTitle'>
-              <h1 className = "servTitle">
-                  SERVICES
-                </h1>
-              </div>
-              
+                <div className='servicesTitle'>
+                  <h1 className="servTitle">
+                    SERVICES
+                  </h1>
+                </div>
+
                 {/* <Button name ="PROFESSIONALS" onClick={(profButtonCLick) }  className='tryButton'>
- THIS LEVEL BUTTON
-        </Button> */}
+                 THIS LEVEL BUTTON
+                     </Button> */}
               </div>
 
               {

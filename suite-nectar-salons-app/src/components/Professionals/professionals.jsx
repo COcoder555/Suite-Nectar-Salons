@@ -36,20 +36,20 @@ const Professionals = (item, link) => {
   const nailTechRef = useRef();
   const asethRef = useRef();
 
-//  const profImages = [prof1, prof2, prof3, prof4, prof5]
+  //  const profImages = [prof1, prof2, prof3, prof4, prof5]
 
-// PROFESSIONALS IMAGE ARRAYS
-const cosmoProfileImages = [prof3, prof5, prof6];
-// const cosmoProfImages = [prof3ProImages];
-const prof3ProImages = [prof3, prof3ProImages1];
-// const esthfProfileImages = [];
-// const esthProfImages =[];
-// const nailTechProfilefImages =[];
-// const nailTechProfImages = [prof2ProImages];
-// const tattooProfilefImages =[prof4];
-// const tattooProfImages = [];
-// const addProfilefImages =[prof1];
-// const addProfImages = [];
+  // PROFESSIONALS IMAGE ARRAYS
+  const cosmoProfileImages = [prof3, prof5, prof6];
+  // const cosmoProfImages = [prof3ProImages];
+  const prof3ProImages = [prof3, prof3ProImages1];
+  // const esthfProfileImages = [];
+  // const esthProfImages =[];
+  // const nailTechProfilefImages =[];
+  // const nailTechProfImages = [prof2ProImages];
+  // const tattooProfilefImages =[prof4];
+  // const tattooProfImages = [];
+  // const addProfilefImages =[prof1];
+  // const addProfImages = [];
 
   let str = data.data2.cosmo[0].name
   let str2 = data.data[0].gallery
@@ -61,15 +61,13 @@ const prof3ProImages = [prof3, prof3ProImages1];
   let [clickedImg, setClickedImg] = useState(null);
   let [currentIdx, setCurrentIdx] = useState(null);
   let [linkIdx, setLinkIdx] = useState(null);
-  let [clickedProfImage1, setClickedProfImage1] = useState(null);
-  let [clickedProfImage2, setClickedProfImage2] = useState(null);
-  let [clickedProfImage3, setClickedProfImage3] = useState(null);
+  let [clickedProfImages, setClickedProfImages] = useState([]);
 
   console.log(data.data2.cosmo[1].gallery[0])
-  
+
 
   let handleClick = (index, onClickCapture, item) => {
-    let profClassName = ['prof1', 'prof2', 'prof3', 'prof4', 'prof5','prof6'];
+    let profClassName = ['prof1', 'prof2', 'prof3', 'prof4', 'prof5', 'prof6'];
     setCurrentIdx(index);
 
     // console.log(onClickCapture, "this is the event");
@@ -99,9 +97,9 @@ const prof3ProImages = [prof3, prof3ProImages1];
 
 
   return (
-    <div style = {{width: '100%'}}>
-     
-      <Navhandler />
+    <div style={{ width: '100%' }}>
+{/* 
+      <Navhandler /> */}
       <div className='professional-container'>
         <div className="professional-background" />
 
@@ -109,8 +107,6 @@ const prof3ProImages = [prof3, prof3ProImages1];
           <h1 className='profTitle'>PROFESSIONALS</h1>
 
         </div>
-
-
         <div className='professionalImg-container'>
           <div id='cosmotologists' className='sectionTitle'>COSMOTOLOGISTS HAIRSYLISTS BARBERS</div>
           <div>
@@ -118,57 +114,29 @@ const prof3ProImages = [prof3, prof3ProImages1];
             <div className='row rL rL' style={{ marginBottom: '100px' }}>
 
               {
-                data.data2.cosmo.map((element,index) => {
+                data.data2.cosmo.map((element, index) => {
                   console.log(element.profileImg)
-                  return <Card id = {`prof${index + 1}`} src = {element.profileImg}  data = {element} setClickedImg = {setClickedImg} 
-                  setClickedProfImage1 = {setClickedProfImage1} setLinkIdx = {setLinkIdx} setClickedProfImage2 = {setClickedProfImage2}/>
+                  return <Card id={`prof${index + 1}`} src={element.profileImg} data={element} setClickedImg={setClickedImg}
+                    setClickedProfImages={setClickedProfImages} setLinkIdx={setLinkIdx}
+                  />
                 })
               }
 
-              {/* <div className='col-2 par'>
-                <img id="prof5" className="profImg" handleClick={handleClick} src={profImages[4]}></img>
-                <div className='profName'>
-                  {data.data[4].name}
-                </div>
-
-              </div>
-              <div className='col-2 par'>
-                <img id="prof5" className="profImg" onClickCapture={handleClick} src={profImages[4]}></img>
-                <div className='profName'>
-                  {data.data[4].name}
-                </div>
-
-              </div>
-
-              <div className='col-2 par'>
-                <img id="prof5" className="profImg " onClickCapture={handleClick} src={profImages[4]}></img>
-                <div className='profName'>
-                  {data.data[4].name}
-                </div>
-
-              </div>
-
-              <div className='col-2 par'>
-                <img id="prof3" className="profImg " onClickCapture={handleClick} src={profImages[2]}></img>
-                <div className='profName'>
-                  {data.data[2].name}
-                </div>
-              </div> */}
-
+             
 
               {
                 clickedImg
                   ?
 
                   <div className='modal-container'>
-                    <Modal1 
-                    linkIdx={linkIdx}
-                   clickedProfImage1 = {clickedProfImage1} 
-                   clickedProfImage2 = {clickedProfImage2} 
-                   setClickedImg={setClickedImg} 
-                   currentIdx={currentIdx} 
-                   clickedImg={clickedImg} 
-                   profImages={profImages} />
+                    <Modal1
+                      linkIdx={linkIdx}
+                      setClickedProfImages={setClickedProfImages}
+                      clickedProfImages={clickedProfImages}
+                      setClickedImg={setClickedImg}
+                      currentIdx={currentIdx}
+                      clickedImg={clickedImg}
+                      profImages={profImages} />
 
                   </div>
                   :
@@ -183,231 +151,115 @@ const prof3ProImages = [prof3, prof3ProImages1];
 
             </div>
 
-            {/* <div style = {{marginBottom: '500px'}}></div> */}
+        
 
 
 
           </div>
           <div className='row rL rL'>
             <div className='col-2 par'>
-              <img id="prof5" className="profImg" onClickCapture={handleClick} src={profImages[4]}></img>
-              <div className='profName'>
-                {data.data[4].name}
-              </div>
+
 
             </div>
             <div className='col-2 par'>
-              <img id="prof5" className="profImg" onClickCapture={handleClick} src={profImages[4]}></img>
-              <div className='profName'>
-                {data.data[4].name}
-              </div>
 
             </div>
+
+
             <div className='col-2 par'>
-              <img id="prof5" className="profImg" onClickCapture={handleClick} src={profImages[4]}></img>
-              <div className='profName'>
-                {data.data[4].name}
-              </div>
 
             </div>
+
             <div className='col-2 par'>
-              <img id="prof5" className="profImg" onClickCapture={handleClick} src={profImages[4]}></img>
-              <div className='profName'>
-                {data.data[4].name}
-              </div>
 
             </div>
+
+
           </div>
           <div id='estheticians' className='sectionTitle'>
             ESTHETICIANS
-            <div className='row rL'>
-              <div className='col-2 par'>
-
-              </div>
-              <div className='col-2 par'>
-                {/* <img src="../../.../public/assets/work3.png"> </img> */}
-              </div>
-              <div className='col-2 par'>
-                {/* <img src="../../.../public/assets/work3.png"> </img> */}
-              </div>
-
-              <div className='col-2 par'>
-                {/* <img src="../../.../public/assets/work3.png"> </img> */}
-              </div>
-              <div className='col-2 par'>
-                {/* <img src="../../.../public/assets/work3.png"> </img> */}
-              </div>
-            </div>
-            <div className='row rL'>
-              <div className='col-2 par'>
-                {/* <img src="../../.../public/assets/work3.png"> </img> */}
-              </div>
-              <div className='col-2 par'>
-                {/* <img src="../../.../public/assets/work3.png"> </img> */}
-              </div>
-              <div className='col-2 par'>
-                {/* <img src="../../.../public/assets/work3.png"> </img> */}
-              </div>
-
-              <div className='col-2 par'>
-                {/* <img src="../../.../public/assets/work3.png"> </img> */}
-              </div>
-              <div className='col-2 par'>
-                {/* <img src="../../.../public/assets/work3.png"> </img> */}
-              </div>
-            </div>
-            <div className='row rL'>
-              <div className='col-2 par'>
-                {/* <img src="../../.../public/assets/work3.png"> </img> */}
-              </div>
-              <div className='col-2 par'>
-                {/* <img src="../../.../public/assets/work3.png"> </img> */}
-              </div>
-              <div className='col-2 par'>
-                {/* <img src="../../.../public/assets/work3.png"> </img> */}
-              </div>
-
-              <div className='col-2 par'>
-                {/* <img src="../../.../public/assets/work3.png"> </img> */}
-              </div>
-              <div className='col-2 par'>
-                {/* <img src="../../.../public/assets/work3.png"> </img> */}
-              </div>
-            </div>
+            
+            
+            
 
 
 
 
           </div>
 
-          <div ref={tattooRef}>
-            <div id='nail' className=''>
-              <div className='sectionTitle'>
+  
+              <div id='nail' className='sectionTitle'>
                 NAIL TECHNICIANS
               </div>
               <div className='row rL'>
-                <div className='col-2 par'>
-                  <img id="prof2" className='profImg' onClickCapture={handleClick} src={profImages[1]}></img>
 
-                </div>
-                <div className='col-2 par'>
-                  {/* <img src="../../.../public/assets/work3.png"> </img> */}
-                </div>
-                <div className='col-2 par'>
-                  {/* <img src="../../.../public/assets/work3.png"> </img> */}
+                <div className='row rL rL' style={{ marginBottom: '100px' }}>
+
+                  {
+                    data.data2.nailTech.map((element, index) => {
+                      console.log(element.profileImg)
+                      return <Card id={`prof${index + 1}`} src={element.profileImg} data={element} setClickedImg={setClickedImg}
+                        setClickedProfImages={setClickedProfImages} setLinkIdx={setLinkIdx}
+                      />
+                    })
+                  }
                 </div>
 
-                <div className='col-2 par'>
-                  {/* <img src="../../.../public/assets/work3.png"> </img> */}
-                </div>
-                <div className='col-2 par'>
-                  {/* <img src="../../.../public/assets/work3.png"> </img> */}
-                </div>
+
+
+
+
+
+
               </div>
               <div className='row rL'>
-                <div className='col-2 par'>
-                  {/* <img src="../../.../public/assets/work3.png"> </img> */}
-                </div>
-                <div className='col-2 par'>
-                  {/* <img src="../../.../public/assets/work3.png"> </img> */}
-                </div>
-                <div className='col-2 par'>
-                  {/* <img src="../../.../public/assets/work3.png"> </img> */}
-                </div>
 
-                <div className='col-2 par'>
-                  {/* <img src="../../.../public/assets/work3.png"> </img> */}
-                </div>
-                <div className='col-2 par'>
-                  {/* <img src="../../.../public/assets/work3.png"> </img> */}
-                </div>
-              </div>
-              <div className='row rL'>
-                <div className='col-2 par'>
-                  {/* <img src="../../.../public/assets/work3.png"> </img> */}
-                </div>
-                <div className='col-2 par'>
-                  {/* <img src="../../.../public/assets/work3.png"> </img> */}
-                </div>
-                <div className='col-2 par'>
-                  {/* <img src="../../.../public/assets/work3.png"> </img> */}
-                </div>
 
-                <div className='col-2 par'>
-                  {/* <img src="../../.../public/assets/work3.png"> </img> */}
-                </div>
-                <div className='col-2 par'>
-                  {/* <img src="../../.../public/assets/work3.png"> </img> */}
-                </div>
               </div>
 
 
 
-            </div>
-          </div>
-          <div id='tattoo'></div>
+        
+          
+          <div ></div>
           <div >
-            <div className='sectionTitle'>
+            
+            <div id='tattoo' className='sectionTitle'>
               TATTOO / PIERCING
             </div>
             <div className='row rL'>
-              <div className='col-2 par'>
-                <img id="prof4" className="profImg" onClickCapture={handleClick} src={profImages[3]}></img>
 
-              </div>
-              <div className='col-2 par'>
-
-              </div>
-              <div className='col-2 par'>
-
-              </div>
-
-              <div className='col-2 par'>
-
-              </div>
-              <div className='col-2 par'>
-
+              <div className='row rL rL' style={{ marginBottom: '100px' }}>
+                {
+                  data.data2.tattoo.map((element, index) => {
+                    console.log(element.profileImg)
+                    return <Card id={`prof${index + 1}`} src={element.profileImg} data={element} setClickedImg={setClickedImg}
+                      setClickedProfImages={setClickedProfImages} setLinkIdx={setLinkIdx}
+                    />
+                  })
+                }
               </div>
             </div>
             <div id='additional'></div>
             <div className='sectionTitle'>
+            
               ADDITIONAL SERVICES
               <div className='row rL'>
-                <div className='col-2 par'>
-                  <img id="prof1" className="" onClickCapture={handleClick} src={profImages[0]}></img>
-                  {/* <img src="../../.../public/assets/work3.png"> </img> */}
-                </div>
-                <div className='col-2 par'>
-                  {/* <img src="../../.../public/assets/work3.png"> </img> */}
-                </div>
-                <div className='col-2 par'>
-                  {/* <img src="../../.../public/assets/work3.png"> </img> */}
-                </div>
-
-                <div className='col-2 par'>
-                  {/* <img src="../../.../public/assets/work3.png"> </img> */}
-                </div>
-                <div className='col-2 par'>
-                  {/* <img src="../../.../public/assets/work3.png"> </img> */}
+                <div className='row rL rL' style={{ marginBottom: '100px' }}>
+                  {
+                    data.data2.additionalServices.map((element, index) => {
+                      console.log(element.profileImg)
+                      return <Card id={`prof${index + 1}`} src={element.profileImg} data={element} setClickedImg={setClickedImg}
+                        setClickedProfImages={setClickedProfImages} setLinkIdx={setLinkIdx}
+                      />
+                    })
+                  }
                 </div>
               </div>
             </div>
-
-
-
-
-
-
-
-
-
-
-
-
           </div>
         </div>
       </div>
-
     </div>
 
 

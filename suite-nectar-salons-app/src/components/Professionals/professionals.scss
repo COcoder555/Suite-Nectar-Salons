@@ -1,7 +1,7 @@
 
 .professional-background{
     background-image: url('../../../public/assets/work3.png');
-   height:75vh;
+   height:80vh;
    background-size: 100%;
 background-repeat: no-repeat;
 margin-bottom: 0%;
@@ -27,6 +27,7 @@ font-size: 10vh;
 text-align: center;
 }
 .profTitle{
+    font-family: Monoton;
 font-size: 10vh;
 }
 
@@ -140,23 +141,22 @@ a{
 //  // top:0;
  
  
-//  // z-index: 4;
+
 //  // color:yellow
 //  }
 
 .profImg{
-    height: 100%;
-    width: auto;
+max-height:94% ;
+max-width: 98%;
    -webkit-filter: grayscale(100%);
 
 }
 
 
 
-#profImg:hover{
-    // -webkit-filter: grayscale(0%);
-    
-    
+.modalCard{
+    max-height: 40px;
+    max-width: 40px;
 }
 
 

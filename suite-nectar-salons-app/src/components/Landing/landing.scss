@@ -30,6 +30,7 @@ text-align: right;
 }
 
 #Caro{
+
     width: 100vw;
 }
 
@@ -42,13 +43,13 @@ text-align: right;
     text-align: center;
     width: fit-content;
     float: right;
-    padding-top:32vh;
+    padding-top:10vh;
     padding-bottom: 0;
     margin-bottom: 0;
     justify-content: center;
     font-size: large;
     color:black;
-  
+    font-size: 27px;
     transition: transform 1s;
     overflow-x: hidden;
     animation-name: slidein; 
@@ -83,8 +84,9 @@ display: none;
     width: 100vw;
 }
 #Join{
-  
+    font-family:Sacramento;
     margin-top:10%;
     padding:4%;
     color:rgb(138, 23, 40);
+    font-size: 13vh;
 }

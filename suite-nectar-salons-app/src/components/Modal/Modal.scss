@@ -19,9 +19,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 overflow-y: scroll;
-// top:'50%';
-// left:'50%';
-// transform: 'translate(-50%, -50%)';
+
 background-color: rgba(0,0,0,.8);
 // padding: 20px;
 border: 40px solid rgba(149, 168, 90, 1);
@@ -51,21 +49,39 @@ z-index: 5000;
 // background-color: rbga(0,0,0,8);
 z-index: 40000;
 }
+.profName{
+    font-family:Anton;
+ font-size:28px;
+    margin-left:4%;
+    margin-bottom: 2%;
+    height: 4vh;
+}
+.buissnessName{
+    font-family:Sacramento;
+    font-size:300px;
+    margin-left:4%;
+color:rgb(138, 23, 40);
+// height:40px;
 
-// .image{
-//     width: 200px;
-//     height: 200px;
-// }
+text-decoration-color: white;
+}
+
+.buisnessTitle{
+    font-size:12vh;
+}
+
 .nameText{
-    // position: absalute;
-    height: fit-content;
+
+
     color:white;
-    width: 40%;
+    width: fit-content;
     background-color:black;
  height: fit-content;
-    // background-color: rgba(0,0,0,1);
+
 }
+
 #nameText{
+margin-top:8%;
 margin:5%;
 }
 Links.a{
@@ -96,13 +112,18 @@ color: rgba(149, 168, 90, 1)
 .porfName{
     margin: 5%;
 }
-
-.profBio{
-    text-align: center;
-    width: 70%;
-    margin: 0 auto;
+.profLocation{
+    margin:4%;
 }
+.profBio{
 
+    text-align: center;
+    width: 100%;
+    margin:auto;
+}
+.bioText{
+
+}
 .modalImage-container{
 padding:0%;
 }
@@ -111,16 +132,25 @@ padding-left: 8%;
 
 }
 
-// .modalImage.img{
-//     padding: 10%;
-// }
+.profGal-container{
+  max-height: 10px;
 
-// .dismiss{
-//     background-color: white;
-//     height: 40px;
-//     width: 40px;
-//     color:black;
+    max-width: 3vh;
+}
+.profGallery{
+justify-content: center;
+    max-height: 40%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
 
-// }
+}
+.galleryImages{
 
 
+}
+.modalImages{
+    margin:4vh;
+    max-height: 75vh;
+    max-width: 75vw;
+
+}
