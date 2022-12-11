@@ -4,7 +4,7 @@
 
     background-repeat: no-repeat;
     background-size: 100%;
-    height: 84vh;
+    height:78vh;
     width: 100vw;
 
 }
@@ -30,27 +30,30 @@
 
 }
 
-h1 {}
+
 
 .servicesTitle {
+    background-color: rgb(199, 196, 196);
+    height:fit-content;
+    margin-right:0%;
+    padding:1%;
+
+    width: 100vw;
+    color:white;
     font-weight: 500;
-
-    font-family: 'Amatic SC';
+    
+    font-family: 'Monoton';
     font-size: 20vh;
-
+    
     text-align: center;
 }
 
 .servTitle{
+    margin-bottom:0;
+    padding-top:4.2%;
     font-size: 10vh;
 }
 
-h3 {
-
-    font-family: 'Thasadith';
-    padding-top: 4%;
-    text-align: center;
-}
 
 
 .service-card {

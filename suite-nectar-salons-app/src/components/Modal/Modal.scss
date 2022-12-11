@@ -12,7 +12,21 @@ top:0;
 z-index: 4000;
 // color:yellow
 }
-
+.locationTitle{
+    color:white;
+//   color: rgb(138, 23, 40);
+  font-size: 5vh;
+  font-weight: 600;
+  margin:.5%;
+  font-family: 'Thasadith';
+  padding-top: 4%;
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom:0;
+  padding: 0;
+letter-spacing: 8px;
+word-spacing: 20px;
+}
 .modal-content{
 // position: fixed;
 display: flex;
@@ -84,11 +98,7 @@ text-decoration-color: white;
 margin-top:8%;
 margin:5%;
 }
-Links.a{
-    color:red;
-    display: flex;
 
-}
 
 .SM{
 
@@ -122,7 +132,7 @@ color: rgba(149, 168, 90, 1)
     margin:auto;
 }
 .bioText{
-
+font-family: "Thasadith";
 }
 .modalImage-container{
 padding:0%;

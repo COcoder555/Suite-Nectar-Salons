@@ -1,6 +1,7 @@
 .contact-background {
+
     background-image: url('../../../public/assets/work3.png');
-    height: 119vh;
+    height: 70vh;
     background-size: 100%;
     width: 100vw;
     background-repeat: no-repeat;
@@ -15,6 +16,25 @@
     justify-content: center;
 }
 
+.contactTitle{
+    background-color: rgb(199, 196, 196);
+    height: 200px;
+    margin-right:0%;
+    padding: 2.5%;
+
+    width: 100vw;
+    color:white;
+    font-weight: 500;
+    
+    font-family: 'Monoton';
+
+    
+    text-align: center;
+}
+
+#conTitle{
+    font-size: 10vh;
+}
 
 .formBackground {
 
@@ -79,7 +99,7 @@
     font-family: 'Bad Script';
 }
 
-p {
+.oppHours {
     font-weight: 200;
     font-family: "Thasadith"
 }
@@ -192,4 +212,3 @@ select {
 
 
 
-.row {}

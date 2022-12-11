@@ -58,7 +58,7 @@ const Modal1 = ({ clickedImg, setClickedImg, currentIdx, setCurrentIdx, linkIdx,
                         <h4 className="buisnessTitle">{linkIdx.business}</h4>
                     </div>
                         <div className="profLocation">
-                            <h3>LOCATION: {linkIdx.salonLocation}</h3>
+                            <h3 className = "locationTitle">LOCATION: {linkIdx.salonLocation}</h3>
                         </div>
                                          <div className="socialMedia">
                                                 <div className="instagramLink SM">

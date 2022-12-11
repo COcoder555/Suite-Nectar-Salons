@@ -39,7 +39,7 @@ function App(clickedImg,linkIdx,currentIdx,setClickedImg,profImages,handleClick,
 
 
               <nav >
-                <Navhandler  currentPage={currentPage} setCurrentPage={setCurrentPage} />
+                <Navhandler className = "navbar"  currentPage={currentPage} setCurrentPage={setCurrentPage} />
               </nav>
 
         
