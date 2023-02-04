@@ -31,10 +31,7 @@ const Professionals = (item, link) => {
       })
     }
   })
-  const cosmoRef = useRef();
-  const tattooRef = useRef();
-  const nailTechRef = useRef();
-  const asethRef = useRef();
+
 
   //  const profImages = [prof1, prof2, prof3, prof4, prof5]
 
@@ -65,32 +62,6 @@ const Professionals = (item, link) => {
 
   console.log(data.data2.cosmo[1].gallery[0])
 
-
-  let handleClick = (index, onClickCapture, item) => {
-    let profClassName = ['prof1', 'prof2', 'prof3', 'prof4', 'prof5', 'prof6'];
-    setCurrentIdx(index);
-
-    // console.log(onClickCapture, "this is the event");
-    console.log(data, "hello what is the index")
-
-    // Function to handle images and data sent to Modal in lightbox
-    for (let i = 0; i < profClassName.length; i++) {
-      if (index.nativeEvent.target.id === profClassName[i]) {
-        setClickedImg(profImages[i])
-        // console.log(clickedImg, " this is clicked image on porfessionals")
-
-        // setLinkIdx(data.data[i])
-        // setClickedProfImage1(data.data[i].gallery)
-        // setClickedProfImage2()
-        // console.log(linkIdx, 'THIS IS THE LINKIDX HANDLECLICK PROFSIDE')
-        // console.log(linkIdx.email, "THIS IS THE EMAIL")
-
-        // let nameTitle = linkIdx.name;
-        // document.getElementById('nameText').textContent = nameTitle;
-      }
-
-    }
-  }
 
 
 

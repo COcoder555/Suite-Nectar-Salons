@@ -1,22 +1,36 @@
-import React from 'react'
+import {useEffect, useContext} from 'react'
 import './about.scss'
 import { DropdownItem } from 'reactstrap'
 import { DropdownToggle } from 'reactstrap'
 import { DropdownMenu } from 'reactstrap'
 // import { NavLink } from 'reactstrap'
 import Navhandler from '../Nav/Navbar'
+import { ReduxLiteContext } from '../../global/ReduxLiteContext';
 
 function About() {
+  const { id, setID } = useContext(ReduxLiteContext)
+
+  useEffect(() => {
+    
+
+    let element = document.getElementById(id)
+    if (element) {
+      window.scrollTo({
+        top: element.offsetTop - 100,
+        behavior: 'smooth'
+      })
+    }
+  })
   return (
     <div className='col-12'>
       <Navhandler />
-      <div className='about-container'>
+      <div  className='about-container'>
         <div className="about-background" />
         <div className='row'>
           <div className = 'col-12'>
         <div className='philoTitle'>
 
-          <h1 className='philo'>PHILOSPHY</h1>
+          <h1 className='philo'>PHILOSOPHY</h1>
 
           </div>
           <p className='philoText'>Empowering Independent Beauty Professionals to elevate their careers and build their own businesses.  <br></br>
@@ -44,8 +58,8 @@ ggggggggggggggggggggggg
 
 
 
-<div className='ownerBar'>
-  <h1 className='ownerTitle'>PROUD OWNERS</h1>
+<div className ='ownerBar'>
+  <h1 id = "About" className='ownerTitle'>PROUD OWNERS</h1>
   <div>
   <p className='ownerStatement'>We are passionate about keeping business local. <br>
   </br>We pride ourselves on being a locally owned and operated company in the beauty industry for over seven years. <br></br>We find success in having the opportunity to know our salon partners as individuals.<br></br>

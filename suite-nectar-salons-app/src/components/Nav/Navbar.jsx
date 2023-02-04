@@ -1,5 +1,5 @@
 import "./Navbar.scss"
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
 import {
   Collapse,
 
@@ -15,15 +15,23 @@ import {
   NavbarText,
   Button
 } from 'reactstrap';
-
+import { ReduxLiteContext } from '../../global/ReduxLiteContext';
 import barColor from '../Footer/Footer'
 
 let Navhandler = (props) => {
+  const{id,setID} = useContext(ReduxLiteContext)
+
   const handleNavclick = (event) => {
     console.log(event.target.textContent)
     props.setCurrentPage(event.target.textContent)
+    window.scrollTo(0,0)
 
+
+    setID(props.id)
   }
+
+
+  
   return (
 
     <div  id = 'fullWidth'>
@@ -50,7 +58,7 @@ let Navhandler = (props) => {
                   <NavItem className="navLinkBank" nav caret>
 
 
-                    <NavLink onClick={handleNavclick} href='#' className="S">ABOUT</NavLink>
+                    <NavLink id = "About" onClick={handleNavclick} href='#' className="S">ABOUT</NavLink>
                     <NavLink onClick={handleNavclick} href='#' className="S">SERVICES</NavLink>
                     <NavLink onClick={handleNavclick} href='#' className="S">PROFESSIONALS</NavLink>
 
@@ -79,7 +87,7 @@ let Navhandler = (props) => {
               <Nav id="" className="" navbar>
                 <NavItem className="c3contain" nav caret>
                   <NavLink onClick={handleNavclick} href='# ' className="link3">CONTACT</NavLink>
-                </NavItem>
+                </NavItem>cd
               </Nav>
             </div>
           </div>

@@ -20,6 +20,8 @@ import Landing from '../Landing/landing';
 
 function Footer(props) {
   const barColorRef = useRef();
+  const [onLanding, setOnLanding] = useState (false);
+  const[className, setClassName] = useState('')
 
 
 
@@ -27,16 +29,20 @@ function Footer(props) {
   const handleNavclick2 = (event) => {
     console.log(event.target.textContent)
     props.setCurrentPage(event.target.textContent) 
-    if(event.target.id ==='logo2'){notOnLanding(!onLanding)} else{
-      notOnLanding(!onLanding);
-    }
+    
     }
   
+    useEffect(() => {
+      if(!document.getElementById('landing')){
+        setClassName('landingBar')
+      }else{
+        setClassName('contactBar')
+      }
+    })
 
 
- const [onLanding, notOnLanding] = useState (false);
 
-let className  = onLanding ? 'landingBar' : 'contactBar' ;
+// let className  = onLanding ? 'landingBar' : 'contactBar' ;
 
 let barColor = (event) =>{
 
@@ -53,7 +59,7 @@ let barColor = (event) =>{
      
    <div ref = {barColorRef}  className ={className}>
 
-</div>
+    </div>
            <div id ='footer' className='col-12'>
       
             {/* <Nav className="link"  navbar>

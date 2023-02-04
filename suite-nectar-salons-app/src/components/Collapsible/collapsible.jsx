@@ -21,12 +21,7 @@ const Collapse = (props) => {
   const profButtonCLick = (event, ref) => {
     console.log(event.target.name)
     props.setCurrentPage(event.target.name);
-    // window.scrollTo({
-    //   top: 590,
-    //   behavior: 'smooth',
 
-    // })
-    // console.log(event.target.id)
     setID(props.id)
 
   }
